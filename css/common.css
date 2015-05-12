@@ -1,5 +1,5 @@
 /*
-* @description: 通用模块库  
+* @description: 通用模块样式库  
 * @author: wyf  
 * @email: 707366656@qq.com
 * @time: 2015-05-11
@@ -17,6 +17,7 @@
 /* head */
 .m-head{
 	height: 80px;
+	background-color: #ffffff;
 }
 
 /* logo */
@@ -58,4 +59,9 @@
   	top: 40px;
   	right: 17px;
   	z-index: 1;
+}
+
+/* foottop */
+.m-foottop{
+	height: 105px;
 }

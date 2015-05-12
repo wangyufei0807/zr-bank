@@ -1,0 +1,101 @@
+/*  
+* @description: 首页样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-12
+*/
+
+/* slider */
+.m-silder{
+	height: 330px;
+	background: url(../../images/silder/silder01.jpg) center;
+}
+
+/* mask */
+.m-mask{
+	position: absolute;
+	top: -315px;
+	right: 0px;
+	width: 300px;
+	height: 300px;
+	filter: alpha(Opacity=40);
+  	-moz-opacity: 0.4;
+	opacity: 0.4;
+  	background-color: #000;
+}
+
+/* join */
+.m-join{
+	position: absolute;
+	top: -315px;
+	right: 0px;
+	width: 300px;
+	height: 300px
+}
+
+/* 介绍 */
+.m-intro{
+	height: 140px;
+}
+.m-intro ul li{
+	float: left;
+	width: 333px;
+	height: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.m-intro ul li:hover{
+	background: url(../../images/feature_li_bg.png) repeat-x;
+}
+.m-intro ul li a{
+	display: block;
+	height: 100px;
+	padding-left: 60px;
+	padding-top: 20px;
+	border-right: 1px solid #f4f4f4;
+}
+.m-intro ul li .icon{
+	background: url(../../images/ico-feature.png);
+	display: block;
+	width: 79px;
+	height: 79px;
+	float: left;
+	margin-right: 10px;
+}
+.m-intro ul li .icon.icon-yield{
+	background-position: 0 0;
+}
+.m-intro ul li .icon.icon-safe{
+	background-position: -84px 0;
+}
+.m-intro ul li .icon.icon-trans{
+	background-position: -170px 0;
+}
+
+.m-intro ul li a:hover .icon-yield{
+	background-position: -170px -80px;
+}
+.m-intro ul li a:hover .icon-safe{
+	background-position: -85px -80px;
+}
+.m-intro ul li a:hover .icon-trans{
+	background-position: -170px -80px;
+}
+.m-intro ul li a .info{
+	float: left;
+}
+.m-intro ul li a .info h2{
+	padding-top: 11px;
+	font-size: 16px;
+	color: #3a5673;
+}
+.m-intro ul li a .info p{
+	color: #898989;
+}
+.m-intro ul li a .info p .red{
+	color: #f88027;
+}
+.m-intro ul li a.last{
+	border-right: 0px;
+}
+

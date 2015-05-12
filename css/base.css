@@ -166,8 +166,14 @@ a,a:hover{color:#506985;}
 .pr100{padding-right: 100px;}
 
 /* 布局 */
-.g-doc{background-color: white;}
+.g-doc{background-color: #ebeef3;}
 .g-in{width: 1000px;margin: 0 auto;}
+.g-sd{position:relative;float:right;width:300px;margin-left:-300px}
+.g-mn{float:left;width:100%;}
+.g-mn2{margin-right:320px;}
+
+/* 背景色 */
+.bgc1{background-color: #ffffff;}
 
 /* 通用自定义按钮-默认蓝色 */
 .u-btn{display:inline-block;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;padding:0 12px;height:28px;line-height:28px;border:1px solid #2d88bf;border-radius:5px;font-size:12px;letter-spacing:1px;text-align:center;vertical-align:middle;cursor:pointer;word-wrap:normal;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);text-shadow:0 -1px rgba(0,0,0,0.2);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#6dbde4),to(#399dd8));background:-webkit-linear-gradient(#6dbde4,#399dd8);background:-moz-linear-gradient(#6dbde4,#399dd8);background:-ms-linear-gradient(#6dbde4,#399dd8);background:linear-gradient(#6dbde4,#399dd8);}
