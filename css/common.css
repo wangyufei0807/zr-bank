@@ -65,3 +65,60 @@
 .m-foottop{
 	height: 105px;
 }
+
+/* footlink */
+.m-footlink{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.m-footlink li{
+	float: left;
+	margin-right: 40px;
+}
+
+/* footcontact */
+.m-contact .time{
+	font-size: 24px;
+	color: #5d5d5d;
+}
+.m-contact .time em{
+	font-size: 14px;
+	font-style: normal;
+}
+
+/* footbottom */
+.m-footbottom{
+	height: 80px;
+	line-height: 80px;
+}
+
+/* copyright */
+.m-copyright{
+	color: #707e8c;
+	font-size: 12px;
+}
+.m-copyright a{
+	color: #707e8c;
+}
+.m-copyright a:hover{
+	color: #ffffff;
+}
+
+/* verification */
+.m-verification a{
+	display: block;
+	width: 60px;
+	height: 24px;
+	border:1px solid #fff;
+	float: left;
+	margin-right: 5px;
+}
+.m-verification a.vficon{
+	background: url(../images/icon-verification.png) no-repeat;
+}
+.m-verification a.icon-norton{
+	background-position: -152px 0px;
+}
+.m-verification a.icon-chengxin{
+	background-position: -152px 0px;
+}
