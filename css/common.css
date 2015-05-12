@@ -1,0 +1,61 @@
+/*
+* @description: 通用模块库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-11
+*/
+
+
+/* topbar */
+.m-topbar{
+	height: 40px;
+	line-height: 40px;
+	background-color: #333;
+	color: #999;
+}
+
+/* head */
+.m-head{
+	height: 80px;
+}
+
+/* logo */
+.m-logo{
+	width: 260px;
+	padding-top: 20px;
+}
+.m-logo a{
+	display: block;
+	width: 260px;
+	height: 42px;
+	background: url(../images/logo.png) no-repeat;
+}
+
+/* nav */
+.m-nav li{
+	float: left;
+	position: relative;
+}
+.m-nav li a{
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 16px;
+	color: #333;
+	height: 80px;
+	line-height: 80px;
+}
+.m-nav li a.dropdown{
+	padding-right: 30px;
+}
+.m-nav .arrow{
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #555;
+	position: absolute;
+  	top: 40px;
+  	right: 17px;
+  	z-index: 1;
+}
