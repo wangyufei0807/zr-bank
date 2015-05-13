@@ -23,7 +23,7 @@ q:before,q:after{content:none;}
 textarea{overflow:auto;resize:none;}
 label,summary{cursor:default;}
 a,button{cursor:pointer;}
-h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:normal;}
 del,ins,u,s,a,a:hover{text-decoration:none;}
 body,textarea,input,button,select,keygen,legend{font:14px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB","宋体";color:#333;outline:0;}
 body{background:#fff;}
@@ -135,6 +135,7 @@ a:hover{color:#316fb1;}
 .mr100{margin-right: 100px;}
 .p10{padding: 10px;}
 .p15{padding: 15px;}
+.p20{padding: 20px;}
 .p30{padding: 30px;}
 .pt5{padding-top: 5px;}
 .pt10{padding-top: 10px;}
