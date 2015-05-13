@@ -105,11 +105,13 @@
 }
 
 /* verification */
+.m-verification{
+	margin-top: 28px;
+}
 .m-verification a{
 	display: block;
 	width: 60px;
 	height: 24px;
-	border:1px solid #fff;
 	float: left;
 	margin-right: 5px;
 }
@@ -117,8 +119,34 @@
 	background: url(../images/icon-verification.png) no-repeat;
 }
 .m-verification a.icon-norton{
+	background-position: -152px -30px;
+	width: 60px;
+	height: 24px;
+}
+.m-verification a.icon-norton:hover{
 	background-position: -152px 0px;
 }
 .m-verification a.icon-chengxin{
-	background-position: -152px 0px;
+	background-position: -216px -30px;
+	width: 70px;
+	height: 24px;
+}
+.m-verification a.icon-chengxin:hover{
+	background-position: -216px 0px;
+}
+.m-verification a.icon-360safe{
+	background-position: -81px -30px;
+	width: 66px;
+	height: 24px;
+}
+.m-verification a.icon-360safe:hover{
+	background-position: -81px 0px;
+}
+.m-verification a.icon-icp{
+	background-position: 0px -30px;
+	width: 77px;
+	height: 24px;
+}
+.m-verification a.icon-icp:hover{
+	background-position: 0px 0px;
 }
