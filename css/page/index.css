@@ -114,6 +114,11 @@
 	font-size: 18px;
 }
 
+/* 扩展标题1 */
+.m-tit-1 h5{
+	margin-left: 
+}
+
 /* 列表1 */
 .m-list li{
 	padding-bottom: 15px;
@@ -127,4 +132,46 @@
 }
 .m-list li.new span a{
 	color: #ff6c00;
+}
+
+/* 列表2 */
+.m-list2 li{
+	float: left;
+	margin-right: 10px;
+}
+
+/* table列表 */
+.m-table table{
+	width: 100%
+}
+.m-table table tr th{
+	height: 40px;
+	line-height: 40px;
+	color: #C0C0C0;
+	text-align: left;
+}
+.m-table table tr th.f-tac{
+	text-align: center;
+}
+.m-table table td{
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #F0F0F0;
+	height: 65px;
+	padding-top: 28px;
+	line-height: 18px;
+}
+.m-table table td.td4{
+	padding-top: 23px;
+}
+.m-table table td.td5{
+	text-align: right;
+}
+.m-table table td .marking{
+	color: #1BA98C;
+	font-size:12px; 
+}
+.m-table table td .marking .icon-security{
+	width: 16px;
+	height: 17px;
 }

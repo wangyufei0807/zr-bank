@@ -76,6 +76,14 @@ a:hover{color:#316fb1;}
 .f18{font-size: 18px;}
 .f20{font-size: 20px;}
 
+/* 字体颜色 */
+/* 橙色 */
+.text-c1{color: #FC5404}
+/* 蓝色 */
+.text-c2{color: #316FB1}
+/* 灰色 */
+.text-c3{color: #C0C0C0}
+
 /* 长度高度 */
 .w{width: 100%;}
 .w10{width: 10px;}
@@ -171,16 +179,16 @@ a:hover{color:#316fb1;}
 .g-in{width: 1000px;margin: 0 auto;}
 .g-sd{position:relative;float:right;width:300px;margin-left:-300px}
 .g-mn{float:left;width:100%;}
-.g-mn2{margin-right:320px;}
+.g-mnc{margin-right:320px;}
 
 /* 背景色 */
 .bgc1{background-color: #ffffff;}
 .bgc2{background-color: #333;}
 
 /* 通用自定义按钮-默认蓝色 */
-.u-btn{display:inline-block;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;padding:0 12px;height:28px;line-height:28px;border:1px solid #2d88bf;border-radius:5px;font-size:12px;letter-spacing:1px;text-align:center;vertical-align:middle;cursor:pointer;word-wrap:normal;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);text-shadow:0 -1px rgba(0,0,0,0.2);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#6dbde4),to(#399dd8));background:-webkit-linear-gradient(#6dbde4,#399dd8);background:-moz-linear-gradient(#6dbde4,#399dd8);background:-ms-linear-gradient(#6dbde4,#399dd8);background:linear-gradient(#6dbde4,#399dd8);}
+.u-btn{display:inline-block;background-color:#375473;padding:0 12px;height:32px;line-height:32px;border-radius:2px;font-size:14px;text-align:center;vertical-align:middle;cursor:pointer;word-wrap:normal;white-space:nowrap;}
 .u-btn,.u-btn:hover{color:#fff;text-decoration:none;}
-.u-btn:hover,.u-btn:focus{background:#399dd8;}
+.u-btn:hover,.u-btn:focus{background:#375473;}
 .u-btn:active{box-shadow:inset 0 1px 4px rgba(0,0,0,0.2);}
 .u-btn::-moz-focus-inner{padding:0;margin:0;border:0;}
 .u-btn .btnsel{display:inline-block;vertical-align:middle;border-style:solid;border-width:4px 4px 0;border-color:rgba(255,255,255,0.8) transparent transparent;}
@@ -200,11 +208,12 @@ a:hover{color:#316fb1;}
 .u-btn-c3{border-color:#52a552;background:-webkit-gradient(linear,0% 0%,0% 100%,from(#68c668),to(#50b150));background:-webkit-linear-gradient(#68c668,#50b150);background:-moz-linear-gradient(#68c668,#50b150);background:-ms-linear-gradient(#68c668,#50b150);background:linear-gradient(#68c668,#50b150);}
 .u-btn-c3:hover,.u-btn-c3:focus{background:#50b150;}
 /* 灰色 */
-.u-btn-c4{border-color:#d0d0d0;text-shadow:0 1px rgba(255,255,255,0.8);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#fefefe),to(#e7e7e7));background:-webkit-linear-gradient(#fefefe,#e7e7e7);background:-moz-linear-gradient(#fefefe,#e7e7e7);background:-ms-linear-gradient(#fefefe,#e7e7e7);background:linear-gradient(#fefefe,#e7e7e7);}
-.u-btn-c4,.u-btn-c4:hover{color:#333;}
-.u-btn-c4:hover,.u-btn-c4:focus{background:#e7e7e7;}
-.u-btn-c4 .btnsel{border-top-color:rgba(0,0,0,0.6);}
-.u-btn-c4:hover .btnsel,.u-btn-c4:focus .btnsel{border-top-color:rgba(0,0,0,1);}
+.u-btn-c4{background:#afafaf;}
+.u-btn-c4:hover,.u-btn-c4:focus{background:#afafaf;}
+/* 浅蓝 */
+.u-btn-c5{background:#b7c6d5;}
+.u-btn-c5:hover,.u-btn-c3:focus{background:#b7c6d5;}
+
 
 /* 通用自定义按钮组合 */
 .u-btns{display:inline-block;position:relative;}

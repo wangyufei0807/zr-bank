@@ -150,3 +150,319 @@
 .m-verification a.icon-icp:hover{
 	background-position: 0px 0px;
 }
+
+/* 进度 */
+.m-rate{
+	display: block;
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background: url(../images/rate.png) no-repeat 0 0;
+	margin: 0px auto;
+	font-family: Arial;
+	font-size: 12px;
+}
+.m-rate-0 {
+	background-position: 0 0
+}
+.m-rate-1 {
+	background-position: -46px 0
+}
+.m-rate-2 {
+	background-position: -92px 0
+}
+.m-rate-3 {
+	background-position: -138px 0
+}
+.m-rate-4 {
+	background-position: -184px 0
+}
+.m-rate-5 {
+	background-position: -230px 0
+}
+.m-rate-6 {
+	background-position: -276px 0
+}
+.m-rate-7 {
+	background-position: -322px 0
+}
+.m-rate-8 {
+	background-position: -368px 0
+}
+.m-rate-9 {
+	background-position: -414px 0
+}
+.m-rate-10 {
+	background-position: -460px 0
+}
+.m-rate-11 {
+	background-position: -506px 0
+}
+.m-rate-12 {
+	background-position: -552px 0
+}
+.m-rate-13 {
+	background-position: -598px 0
+}
+.m-rate-14 {
+	background-position: -644px 0
+}
+.m-rate-15 {
+	background-position: -690px 0
+}
+.m-rate-16 {
+	background-position: -736px 0
+}
+.m-rate-17 {
+	background-position: -782px 0
+}
+.m-rate-18 {
+	background-position: -828px 0
+}
+.m-rate-19 {
+	background-position: -874px 0
+}
+.m-rate-20 {
+	background-position: -920px 0
+}
+.m-rate-21 {
+	background-position: -966px 0
+}
+.m-rate-22 {
+	background-position: -1012px 0
+}
+.m-rate-23 {
+	background-position: -1058px 0
+}
+.m-rate-24 {
+	background-position: -1104px 0
+}
+.m-rate-25 {
+	background-position: -1150px 0
+}
+.m-rate-26 {
+	background-position: -1196px 0
+}
+.m-rate-27 {
+	background-position: -1242px 0
+}
+.m-rate-28 {
+	background-position: -1288px 0
+}
+.m-rate-29 {
+	background-position: -1334px 0
+}
+.m-rate-30 {
+	background-position: -1380px 0
+}
+.m-rate-31 {
+	background-position: -1426px 0
+}
+.m-rate-32 {
+	background-position: -1472px 0
+}
+.m-rate-33 {
+	background-position: -1518px 0
+}
+.m-rate-34 {
+	background-position: -1564px 0
+}
+.m-rate-35 {
+	background-position: -1610px 0
+}
+.m-rate-36 {
+	background-position: -1656px 0
+}
+.m-rate-37 {
+	background-position: -1702px 0
+}
+.m-rate-38 {
+	background-position: -1748px 0
+}
+.m-rate-39 {
+	background-position: -1794px 0
+}
+.m-rate-40 {
+	background-position: -1840px 0
+}
+.m-rate-41 {
+	background-position: -1886px 0
+}
+.m-rate-42 {
+	background-position: -1932px 0
+}
+.m-rate-43 {
+	background-position: -1978px 0
+}
+.m-rate-44 {
+	background-position: -2024px 0
+}
+.m-rate-45 {
+	background-position: -2070px 0
+}
+.m-rate-46 {
+	background-position: -2116px 0
+}
+.m-rate-47 {
+	background-position: -2162px 0
+}
+.m-rate-48 {
+	background-position: -2208px 0
+}
+.m-rate-49 {
+	background-position: -2254px 0
+}
+.m-rate-50 {
+	background-position: -2300px 0
+}
+.m-rate-51 {
+	background-position: -2346px 0
+}
+.m-rate-52 {
+	background-position: -2392px 0
+}
+.m-rate-53 {
+	background-position: -2438px 0
+}
+.m-rate-54 {
+	background-position: -2484px 0
+}
+.m-rate-55 {
+	background-position: -2530px 0
+}
+.m-rate-56 {
+	background-position: -2576px 0
+}
+.m-rate-57 {
+	background-position: -2622px 0
+}
+.m-rate-58 {
+	background-position: -2668px 0
+}
+.m-rate-59 {
+	background-position: -2714px 0
+}
+.m-rate-60 {
+	background-position: -2760px 0
+}
+.m-rate-61 {
+	background-position: -2806px 0
+}
+.m-rate-62 {
+	background-position: -2852px 0
+}
+.m-rate-63 {
+	background-position: -2898px 0
+}
+.m-rate-64 {
+	background-position: -2944px 0
+}
+.m-rate-65 {
+	background-position: -2990px 0
+}
+.m-rate-66 {
+	background-position: -3036px 0
+}
+.m-rate-67 {
+	background-position: -3082px 0
+}
+.m-rate-68 {
+	background-position: -3128px 0
+}
+.m-rate-69 {
+	background-position: -3174px 0
+}
+.m-rate-70 {
+	background-position: -3220px 0
+}
+.m-rate-71 {
+	background-position: -3266px 0
+}
+.m-rate-72 {
+	background-position: -3312px 0
+}
+.m-rate-73 {
+	background-position: -3358px 0
+}
+.m-rate-74 {
+	background-position: -3404px 0
+}
+.m-rate-75 {
+	background-position: -3450px 0
+}
+.m-rate-76 {
+	background-position: -3496px 0
+}
+.m-rate-77 {
+	background-position: -3542px 0
+}
+.m-rate-78 {
+	background-position: -3588px 0
+}
+.m-rate-79 {
+	background-position: -3634px 0
+}
+.m-rate-80 {
+	background-position: -3680px 0
+}
+.m-rate-81 {
+	background-position: -3726px 0
+}
+.m-rate-82 {
+	background-position: -3772px 0
+}
+.m-rate-83 {
+	background-position: -3818px 0
+}
+.m-rate-84 {
+	background-position: -3864px 0
+}
+.m-rate-85 {
+	background-position: -3910px 0
+}
+.m-rate-86 {
+	background-position: -3956px 0
+}
+.m-rate-87 {
+	background-position: -4002px 0
+}
+.m-rate-88 {
+	background-position: -4048px 0
+}
+.m-rate-89 {
+	background-position: -4094px 0
+}
+.m-rate-90 {
+	background-position: -4140px 0
+}
+.m-rate-91 {
+	background-position: -4186px 0
+}
+.m-rate-92 {
+	background-position: -4232px 0
+}
+.m-rate-93 {
+	background-position: -4278px 0
+}
+.m-rate-94 {
+	background-position: -4324px 0
+}
+.m-rate-95 {
+	background-position: -4370px 0
+}
+.m-rate-96 {
+	background-position: -4416px 0
+}
+.m-rate-97 {
+	background-position: -4462px 0
+}
+.m-rate-98 {
+	background-position: -4508px 0
+}
+.m-rate-99 {
+	background-position: -4554px 0
+}
+.m-rate-100 {
+	background-position: -4600px 0
+}
