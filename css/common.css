@@ -555,3 +555,55 @@
 	width: 16px;
 	height: 17px;
 }
+
+/* table列表2 */
+.m-table2 table{
+	width: 100%;
+}
+.m-table2 table tr.tit{
+	background-color:#F3F5FA;
+}
+.m-table2 table tr.tit th{
+	padding: 14px 0;
+	text-align: center;
+	color: #C0C0C0;
+	border-bottom: 1px solid #EBECEE;
+}
+.m-table2 table tr.tit th.firstTh{
+	padding-left: 77px;
+	text-align: left;
+}
+.m-table2 table tr td{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EBECEE;
+}
+
+/* 分页 */
+.m-paging a{
+	float: left;
+	padding: 0.3em 0.6em;
+	line-height: 16px;
+}
+.m-paging a, .m-paging span {
+    float: left;
+    padding: 0.3em 0.6em;
+    line-height: 16px;
+}
+.m-paging .prev {
+    font-weight: bold;
+    line-height: 16px;
+}
+.m-paging .current{
+	background: none repeat scroll 0% 0% #1F3750;
+	color: #FFF;
+	border: 1px solid #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.m-paging .next{
+	margin-right: 15px;
+	font-weight: bold;
+	line-height: 17px;
+}
