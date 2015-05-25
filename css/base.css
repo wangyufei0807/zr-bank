@@ -25,7 +25,7 @@ label,summary{cursor:default;}
 a,button{cursor:pointer;}
 h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:normal;}
 del,ins,u,s,a,a:hover{text-decoration:none;}
-body,textarea,input,button,select,keygen,legend{font:14px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB","宋体";color:#333;outline:0;}
+body,textarea,input,button,select,keygen,legend{font:14px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB","宋体";color:#5d5d5d;outline:0;}
 body{background:#fff;}
 a{outline: none;color: #5d5d5d}
 a:hover{color:#316fb1;} 
@@ -88,6 +88,8 @@ a:hover{color:#316fb1;}
 .text-c4{color: #ffffff;}
 /* 黄色 */
 .text-c5{color: #F90;}
+/* 绿色 */
+.text-c6{color: #008955}
 
 /* 长度高度 */
 .w{width: 100%;}
@@ -185,6 +187,10 @@ a:hover{color:#316fb1;}
 .g-sd{position:relative;float:right;width:300px;margin-left:-300px}
 .g-mn{float:left;width:100%;}
 .g-mnc{margin-right:320px;}
+
+.g-sd2{position:relative;float:right;width:340px;margin-left:-340px}
+.g-mn2{float:left;width:100%;}
+.g-mnc2{margin-right:350px;}
 
 /* 动画 */
 .a-bounce,.a-flip,.a-flash,.a-shake,.a-swing,.a-wobble,.a-ring{-webkit-animation:1s ease;-moz-animation:1s ease;-ms-animation:1s ease;animation:1s ease;}

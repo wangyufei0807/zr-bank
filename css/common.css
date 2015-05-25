@@ -5,7 +5,7 @@
 * @time: 2015-05-11
 */
 
-
+/* 网站头部公用 */
 /* topbar */
 .m-topbar{
 	height: 40px;
@@ -67,6 +67,7 @@
   	z-index: 1;
 }
 
+/* 网站底部公用 */
 /* foottop */
 .m-foottop{
 	height: 105px;
@@ -156,8 +157,38 @@
 .m-verification a.icon-icp:hover{
 	background-position: 0px 0px;
 }
+/* /网站底部公用 */
 
-/* 进度 */
+/* -------------------------公用组件模块------------------------- */
+/* 分页 */
+.m-paging a{
+	float: left;
+	padding: 0.3em 0.6em;
+	line-height: 16px;
+}
+.m-paging a, .m-paging span {
+    float: left;
+    padding: 0.3em 0.6em;
+    line-height: 16px;
+}
+.m-paging .prev {
+    font-weight: bold;
+    line-height: 16px;
+}
+.m-paging .current{
+	background: none repeat scroll 0% 0% #1F3750;
+	color: #FFF;
+	border: 1px solid #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.m-paging .next{
+	margin-right: 15px;
+	font-weight: bold;
+	line-height: 17px;
+}
+
+/* 圆形进度条 */
 .m-rate{
 	display: block;
 	width: 46px;
@@ -473,137 +504,38 @@
 	background-position: -4600px 0
 }
 
-/* tit */
-.m-tit{
-	height: 58px;
-	line-height: 58px;
-	border-bottom: 1px solid #F0F0F0;
-	padding-left: 20px;
-	padding-right: 20px;
+/* 长方形进度条 */
+.m-rate2{
+	display: inline-block;
+    height: 34px;
+    position: relative;
+    vertical-align: middle;
+    width: 160px;
 }
-.m-tit .more{
-	font-size: 12px;
+.m-rate2 .progressBar{
+	display: block;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    background-color: #d1d1d1;
 }
-.m-tit h2{
-	font-size: 18px;
+.m-rate2 .progressBar,.m-rate2 .progressBar .barIn{
+	border-radius: 2px;
+    font-size: 0;
+    height: 6px;
+    line-height: 6px;
+    text-align: left;
+    vertical-align: middle;
+    width: 100px;
 }
-
-/* 扩展标题1 */
-.m-tit-1 h5{
-	margin-left: 
+.m-rate2 .progressBar .barIn{
+	background-color: #ef8200;
+    display: inline-block;
 }
-
-/* 扩展标题2 */
-.m-tit-2{
-	height: 70px;
-	line-height: 70px;
-}
-
-/* 列表1 */
-.m-list li{
-	padding-bottom: 15px;
-}
-.m-list li span{
-	margin-right: 6px;
-	color: silver;
-}
-.m-list li a{
-	color: #506985;
-}
-.m-list li.new span a{
-	color: #ff6c00;
-}
-
-/* 列表2 */
-.m-list2 li{
-	float: left;
-	margin-right: 10px;
-}
-
-/* table列表 */
-.m-table table{
-	width: 100%
-}
-.m-table table tr th{
-	height: 40px;
-	line-height: 40px;
-	color: #C0C0C0;
-	text-align: left;
-}
-.m-table table tr th.f-tac{
-	text-align: center;
-}
-.m-table table td{
-	text-align: left;
-	vertical-align: top;
-	border-bottom: 1px solid #F0F0F0;
-	height: 65px;
-	padding-top: 28px;
-	line-height: 18px;
-}
-.m-table table td.td4{
-	padding-top: 23px;
-}
-.m-table table td.td5{
-	text-align: right;
-}
-.m-table table td .marking{
-	color: #1BA98C;
-	font-size:12px; 
-}
-.m-table table td .marking .icon-security{
-	width: 16px;
-	height: 17px;
-}
-
-/* table列表2 */
-.m-table2 table{
-	width: 100%;
-}
-.m-table2 table tr.tit{
-	background-color:#F3F5FA;
-}
-.m-table2 table tr.tit th{
-	padding: 14px 0;
-	text-align: center;
-	color: #C0C0C0;
-	border-bottom: 1px solid #EBECEE;
-}
-.m-table2 table tr.tit th.firstTh{
-	padding-left: 77px;
-	text-align: left;
-}
-.m-table2 table tr td{
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #EBECEE;
-}
-
-/* 分页 */
-.m-paging a{
-	float: left;
-	padding: 0.3em 0.6em;
-	line-height: 16px;
-}
-.m-paging a, .m-paging span {
-    float: left;
-    padding: 0.3em 0.6em;
-    line-height: 16px;
-}
-.m-paging .prev {
-    font-weight: bold;
-    line-height: 16px;
-}
-.m-paging .current{
-	background: none repeat scroll 0% 0% #1F3750;
-	color: #FFF;
-	border: 1px solid #000;
-	font-weight: bold;
-	font-size: 14px;
-}
-.m-paging .next{
-	margin-right: 15px;
-	font-weight: bold;
-	line-height: 17px;
+.m-rate2 .num{
+	height: 30px;
+    left: 107px;
+    line-height: 30px;
+    position: absolute;
+    top: 2px;
 }

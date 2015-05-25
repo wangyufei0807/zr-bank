@@ -1,0 +1,71 @@
+/*
+* @description: 项目详情样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-25
+*/
+
+/* 面包屑导航 */
+.m-crumb{
+	overflow:hidden;
+	line-height:1.5;
+}
+.m-crumb ul{
+	margin-left:-20px;
+}
+.m-crumb li{
+	float:left;
+	word-wrap:normal;
+	white-space:nowrap;
+}
+.m-crumb li:before{
+	display:inline-block;
+	width:20px;
+	text-align:center;
+	content:'\3E';
+	font-size:12px;
+	color:#ccc;
+	font-family:\5b8b\4f53;
+}
+
+/* 项目标题 */
+.m-tit{
+	height: 58px;
+	line-height: 58px;
+	border-bottom: 1px solid #F0F0F0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #333;
+}
+
+/* 项目属性 */
+.m-attr1 li{
+	float: left;
+	padding-left: 25px;
+}
+.m-attr1 li.l1{
+	width: 250px;
+}
+.m-attr1 li.l2{
+	width: 140px;
+	border-left: 1px dotted #999;
+}
+.m-attr1 li.l3{
+	width: 140px;
+	border-left: 1px dotted #999;
+}
+
+.m-attr2{
+	padding-left: 25px;
+	border-bottom: 1px dotted #999;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.m-attr2 li{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+}
+.m-attr2 li.l1{
+	width: 58%;
+}

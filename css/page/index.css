@@ -5,13 +5,13 @@
 * @time: 2015-05-12
 */
 
-/* slider */
+/* 焦点图 */
 .m-silder{
 	height: 330px;
 	background: url(../../images/silder/silder01.jpg) center;
 }
 
-/* mask */
+/* 蒙版 */
 .m-mask{
 	position: absolute;
 	top: -315px;
@@ -24,7 +24,7 @@
   	background-color: #000;
 }
 
-/* join */
+/* 加入我们 */
 .m-join{
 	position: absolute;
 	top: -315px;
@@ -100,7 +100,7 @@
 	border-right: 0px;
 }
 
-/* tit */
+/* 标题 */
 .m-tit{
 	height: 58px;
 	line-height: 58px;
@@ -115,12 +115,7 @@
 	font-size: 18px;
 }
 
-/* 扩展标题1 */
-.m-tit-1 h5{
-	margin-left: 
-}
-
-/* 列表1 */
+/* 列表1 (公告、媒体报道、为何选择中融贷)*/
 .m-list li{
 	padding-bottom: 15px;
 }
@@ -135,13 +130,13 @@
 	color: #ff6c00;
 }
 
-/* 列表2 */
+/* 列表2（合作伙伴、媒体报道）*/
 .m-list2 li{
 	float: left;
 	margin-right: 10px;
 }
 
-/* table列表 */
+/* 首页项目列表 */
 .m-table table{
 	width: 100%
 }
