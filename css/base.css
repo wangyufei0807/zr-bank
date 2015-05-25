@@ -115,6 +115,7 @@ a:hover{color:#316fb1;}
 .h80{height: 80px;}
 .h100{height: 100px;}
 .h200{height: 200px;}
+.h300{height: 300px;}
 
 /* 边距 */
 .m10{margin: 10px;}
@@ -1134,7 +1135,7 @@ a:hover{color:#316fb1;}
 .u-btn .btnsel{display:inline-block;vertical-align:middle;border-style:solid;border-width:4px 4px 0;border-color:rgba(255,255,255,0.8) transparent transparent;}
 .u-btn:hover .btnsel,.u-btn:focus .btnsel{border-top-color:rgba(255,255,255,1);}
 /* 较大 */
-.u-btn-lg{padding:0 15px;height:36px;line-height:36px;font-size:18px;}
+.u-btn-lg{padding:0 15px;height:50px;line-height:50px;font-size:24px;}
 .u-btn-lg .btnsel{border-width:5px 5px 0;}
 /* 较小 */
 .u-btn-sm{padding:0 10px;height:22px;line-height:22px;}

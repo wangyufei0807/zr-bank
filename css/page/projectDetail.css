@@ -69,3 +69,68 @@
 .m-attr2 li.l1{
 	width: 58%;
 }
+
+/* 未登录 */
+.m-nologin p.item{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px dashed #eee;
+	margin-bottom: 10px;
+}
+.m-nologin p.item2{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	height: 144px;
+	line-height: 144px;
+}
+
+/* 已登录 */
+.m-login p.item{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px dashed #eee;
+	margin-bottom: 10px;
+}
+.m-login p.item2{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	height: 144px;
+	line-height: 144px;
+}
+
+/* tab样式 */
+.m-tab .tabMenu{
+	background-color: #fafafa;
+}
+.m-tab .tabMenu li{
+	border-bottom: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    cursor: pointer;
+    float: left;
+    height: 47px;
+    line-height: 47px;
+    padding: 0 30px;
+    text-align: center;
+}
+.m-tab .tabMenu li.current{
+	background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #2980b9;
+    height: 46px;
+    line-height: 46px;
+}
+
+/* con */
+.m-con{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+
+}
