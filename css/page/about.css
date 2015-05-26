@@ -44,6 +44,21 @@
 	background: #16ba98 url(../../images/about_tit_bg.png);
 }
 
+/* 扩展标题 */
+.m-tit-1{
+	line-height: normal;
+	padding-top: 25px;
+	height: 102px;
+}
+.m-tit-1 span{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.m-tit-1 a:hover{
+	color: #ffffff;
+}
+
 /* 关于我们 */
 .m-about .about p{
 	margin-bottom: 20px;
@@ -84,4 +99,135 @@
 }
 .m-about .photo li.mr0{
 	margin-right: 0px;
+}
+
+/* 法律顾问 */
+.m-counsel .baseInfo{
+	width: 355px;
+	height: 444px;
+	background: url(../../images/border.png) no-repeat;
+}
+.m-counsel .about{
+	background: #00bc9c;
+	width: 325px;
+	height: 430px;
+	padding: 15px 15px 0;
+}
+.m-counsel .about p{
+	color: #fff;
+    line-height: 28px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+/* 合作伙伴 */
+.m-partners li{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px dashed #eee;
+}
+.m-partners .partnerTit{
+	font-size: 18px;
+    height: 55px;
+    line-height: 55px;
+    padding-bottom: 13px;
+    text-align: left;
+}
+.m-partners .partnerCon p{
+	color: #5d5d5d;
+    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB",宋体;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 0 25px;
+    text-align: justify;
+    text-indent: 2em;
+    white-space: normal;
+}
+
+/* 网站公告 */
+.m-notice li{
+	margin-bottom: 22px;
+}
+.m-notice li a{
+	color: #999;
+}
+.m-notice li a span{
+	margin-right: 20px;
+}
+
+/* 法律法规 */
+.m-laws li{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #eee;
+}
+.m-laws li.first{
+	padding-top: 0px;
+}
+.m-laws .lawsTit a{
+	color: #333;
+}
+.m-laws .lawsCon{
+	line-height: 24px;
+}
+
+/* 联系我们 */
+.m-contact .linkItem li{
+	margin-bottom: 10px;
+	height: 30px;
+	padding-left: 35px;
+	position: relative;
+}
+.m-contact .linkItem li i{
+	left: 0;
+    position: absolute;
+    background-image: url(../../images/link-sprite.png);
+}
+.m-contact .linkItem .icon-link-01 {
+    background-position: 0 0;
+    height: 30px;
+    width: 20px;
+}
+.m-contact .linkItem .icon-link-02 {
+    background-position: -30px 0;
+    height: 22px;
+    width: 22px;
+}
+.m-contact .linkItem .icon-link-03 {
+	background-image: url(../../images/partner.jpg);
+    height: 20px;
+    width: 28px;
+}
+.m-contact .linkItem .icon-link-04 {
+    background-position: -129px 0;
+    height: 21px;
+    width: 26px;
+}
+.m-contact .linkItem .icon-link-05 {
+    background-position: -4px -40px;
+    height: 15px;
+    width: 25px;
+}
+.m-contact .linkItem .icon-link-06 {
+    background-position: -38px -41px;
+    height: 15px;
+    width: 25px;
+}
+.m-contact .linkItem .icon-link-07 {
+    background-position: -72px -38px;
+    height: 20px;
+    width: 20px;
+}
+.m-contact .linkItem .icon-link-08 {
+    background-position: -99px -36px;
+    height: 20px;
+    width: 20px;
+}
+.m-contact .linkItem .icon-link-09 {
+    
+    background-position: -127px -35px;
+    height: 20px;
+    width: 20px;
 }

@@ -76,6 +76,7 @@ a:hover{color:#316fb1;}
 .f18{font-size: 18px;}
 .f20{font-size: 20px;}
 .f30{font-size: 30px;}
+.f36{font-size: 36px;}
 
 /* 字体颜色 */
 /* 橙色 */
@@ -90,6 +91,8 @@ a:hover{color:#316fb1;}
 .text-c5{color: #F90;}
 /* 绿色 */
 .text-c6{color: #008955}
+/* 深灰 */
+.text-c7{color: #333;}
 
 /* 长度高度 */
 .w{width: 100%;}
