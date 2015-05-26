@@ -1,0 +1,87 @@
+/*
+* @description: 关于我们样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-25
+*/
+
+/* 侧栏导航 */
+.m-subnav li{
+	border-bottom: 1px solid #ebecee;
+    height: 50px;
+}
+.m-subnav li a{
+	border-left: 3px solid #fff;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 62px;
+}
+.m-subnav li a:hover{
+	border-left: 3px solid #ff6c00;
+	color: #ff6c00;
+}
+.m-subnav li.current a{
+	border-left: 3px solid #ff6c00;
+	color: #ff6c00;
+}
+
+/* 内容 */
+.m-content{
+	min-height: 680px;
+	border-left: 1px solid #e5e7eb;
+}
+
+/* 标题 */
+.m-tit{
+	height: 127px;
+	line-height: 127px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 24px;
+	color: #ffffff;
+	background: #16ba98 url(../../images/about_tit_bg.png);
+}
+
+/* 关于我们 */
+.m-about .about p{
+	margin-bottom: 20px;
+}
+
+.m-about .license li{
+	float: left;
+	margin-left: 100px;
+}
+.m-about .license li a{
+	display: block;
+	width: 96px;
+	height: 96px;
+	background: url(../../images/report.png) no-repeat;
+}
+.m-about .license li a.icon-license{
+	background-position: 0px 0px;
+}
+.m-about .license li a.icon-license:hover{
+	background-position: 0px -118px;
+}
+.m-about .license li a.icon-tax{
+	background-position: -142px 0px;
+}
+.m-about .license li a.icon-tax:hover{
+	background-position: -142px -118px;
+}
+.m-about .license li a.icon-report{
+	background-position: -284px 0px;
+}
+.m-about .license li a.icon-report:hover{
+	background-position: -284px -118px;
+}
+.m-about .photo li{
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 5px;
+}
+.m-about .photo li.mr0{
+	margin-right: 0px;
+}

@@ -189,9 +189,15 @@ a:hover{color:#316fb1;}
 .g-mn{float:left;width:100%;}
 .g-mnc{margin-right:320px;}
 
+/* 关于我们 - 两列右侧自适应布局 */
+.g-sd1{position:relative;float:left;width:180px;margin-right:-180px;}
+.g-mn1{float:right;width:100%;}
+.g-mn1c{margin-left:180px;}
+
+/* 项目详情 - 左侧自适应布局 */
 .g-sd2{position:relative;float:right;width:340px;margin-left:-340px}
 .g-mn2{float:left;width:100%;}
-.g-mnc2{margin-right:350px;}
+.g-mn2c{margin-right:350px;}
 
 /* 动画 */
 .a-bounce,.a-flip,.a-flash,.a-shake,.a-swing,.a-wobble,.a-ring{-webkit-animation:1s ease;-moz-animation:1s ease;-ms-animation:1s ease;animation:1s ease;}
