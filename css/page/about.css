@@ -59,6 +59,14 @@
 	color: #ffffff;
 }
 
+/* 扩展标题2 */
+.m-tit-2{
+	line-height: normal;
+	padding-top: 15px;
+	height: 112px;
+	background: #16ba98 url(../../images/job_tit_bg.png);
+}
+
 /* 关于我们 */
 .m-about .about p{
 	margin-bottom: 20px;
@@ -124,7 +132,7 @@
 .m-partners li{
 	padding-top: 25px;
 	padding-bottom: 25px;
-	border-bottom: 1px dashed #eee;
+	border-bottom: 1px dashed #c0c0c0;
 }
 .m-partners .partnerTit{
 	font-size: 18px;
@@ -157,11 +165,40 @@
 	margin-right: 20px;
 }
 
+/* 诚聘英才 */
+.m-job .tabMenu{
+	border-bottom: 1px dashed #c0c0c0;
+	padding-bottom: 20px;
+}
+.m-job .tabMenu li{
+	float: left;
+	margin-right: 30px;
+	font-size: 18px;
+}
+.m-job .tabMenu li a{
+	display: inline-block;
+	padding-bottom: 4px;
+}
+.m-job .tabMenu li a:hover{
+	border-bottom: 2px solid #00bc9c;
+    color: #00bc9c;
+}
+.m-job .tabMenu li.current a{
+	border-bottom: 2px solid #00bc9c;
+    color: #00bc9c;
+}
+.m-job .tabCon .content{
+	line-height: 26px;
+}
+.m-job .tabCon .content strong{
+	font-weight: bold;
+}
+
 /* 法律法规 */
 .m-laws li{
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-bottom: 1px dashed #eee;
+	border-bottom: 1px dashed #c0c0c0;
 }
 .m-laws li.first{
 	padding-top: 0px;
