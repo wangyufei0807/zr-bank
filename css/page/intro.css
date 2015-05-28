@@ -1,0 +1,138 @@
+/*
+* @description: 收益高 门槛低样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-27
+*/
+
+/* banner */
+.m-banner{
+	height: 330px;
+	background:#347dd8 url(../../images/intro_banner.jpg) no-repeat center center;
+}
+
+/* 标题 */
+.m-tit{
+	height: 58px;
+	line-height: 58px;
+	border-bottom: 1px solid #F0F0F0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+}
+
+/* 列表1 */
+.m-list{
+	height: 330px;
+}
+.m-list li{
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+.m-list li em{
+	float: right;
+	color: silver;
+}
+.m-list li i.icon{
+	display: inline-block;
+    font-size: 0;
+    left: 5px;
+    position: relative;
+    top: 3px;
+    background: url(../../images/intro_icon.png) no-repeat;
+}
+.m-list li i.icon1{
+	background-position: -354px -20px;
+    height: 16px;
+    width: 46px;
+}
+
+/* 列表2 */
+.m-list2{
+	height: 330px;
+	padding: 30px 0 0 61px;
+}
+.m-list2 ul{
+	width: 497px;
+  	height: 273px;
+  	padding-left: 30px;
+  	border: 1px solid #DFDFDF;
+  	border-width: 0 0 1px 1px;
+}
+.m-list2 ul li{
+	float: left;
+  	width: 79px;
+  	height: 300px;
+  	position: relative;
+  	top: -5px;
+}
+.m-list2 ul li div.pillarItem{
+	position: absolute;
+	left: 50%;
+	margin-left: -18px;
+	bottom: 22px;
+	width: 36px;
+}
+.m-list2 ul li div span{
+	color: silver;
+  	font-size: 12px;
+  	position: absolute;
+  	top: -19px;
+  	left: 0;
+}
+.m-list2 ul li .ico-pillar{
+	display: block;
+  	height: 100%;
+  	background: url(../../images/intro_icon.png) repeat-y;
+}
+.m-list2 ul li .ico-pillar-plan {
+	background-position: 0 0;
+}
+.m-list2 ul li .ico-pillar-loan {
+	background-position: -38px 0;
+}
+.m-list2 ul li .ico-pillar-bank,.m-list2 ul li .ico-pillar-bank1,.m-list2 ul li .ico-pillar-bank5 {
+	background-position: -76px 0;
+}
+.m-list2 ul li .ico-pillar-ali {
+	background-position: -114px 0;
+}
+.m-list2 li p {
+  font-size: 14px;
+  color: #5d5d5d;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  display: block;
+  text-align: center;
+}
+
+/* 问题 */
+.m-question li{
+	border-right: 1px solid #e6e6e6;
+    float: left;
+    height: 216px;
+    text-align: center;
+    width: 332px;
+}
+.m-question li .p1{
+	color: silver;
+    font-size: 18px;
+    height: 32px;
+    padding-top: 33px;
+}
+.m-question li .p2{
+	color: #5c85b0;
+    font-size: 26px;
+    height: 46px;
+}
+.m-question li .p3{
+	color: #5d5d5d;
+    font-size: 14px;
+    height: 51px;
+    line-height: 22px;
+}
+.m-question li.last{
+	border-right: 0px;
+}

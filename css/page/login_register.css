@@ -1,0 +1,42 @@
+/*
+* @description: 登录注册样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-28
+*/
+
+/* top信息 */
+.m-topInfo h3{
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+}
+
+/* 跳转连接 */
+.m-link span{
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	font-size: 18px;
+}
+.m-link a,.m-link a:hover{
+	color: #ff6c00;
+	text-decoration: none;
+}
+
+/* box */
+.m-box{
+	padding-bottom: 80px;
+}
+
+/* 注册 */
+.m-register{
+	margin-left: 130px;
+}
+
+/* 登录 */
+.m-login{
+	margin-left: 130px;
+}

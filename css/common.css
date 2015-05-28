@@ -24,6 +24,7 @@
 .m-head{
 	height: 80px;
 	background-color: #ffffff;
+	border-bottom: 1px solid #e5e9ed;
 }
 
 /* logo */
@@ -51,6 +52,9 @@
 	color: #333;
 	height: 80px;
 	line-height: 80px;
+}
+.m-nav li a:hover{
+	color: #ff6c00;
 }
 .m-nav li a.dropdown{
 	padding-right: 30px;
@@ -186,6 +190,33 @@
 	margin-right: 15px;
 	font-weight: bold;
 	line-height: 17px;
+}
+
+/* 表单模块 */
+.m-form .formItem{
+	margin-bottom: 30px;
+}
+.m-form .u-ipt{
+	width: 320px;
+	background: #f3f5fa;
+	border: 1px solid #faf5fa;
+    margin-right: 17px;
+    padding: 10px 10px 10px 48px;
+}
+.m-form .u-ipt-sm{
+	width: 140px;
+	padding:10px;
+	margin-right: 10px;
+}
+.m-form .u-btn{
+	width: 380px;
+	height: 38px;
+}
+.m-form #subBtn{
+	font-size: 16px;
+}
+.m-form #getMobileCode{
+	width: 204px;
 }
 
 /* 圆形进度条 */
