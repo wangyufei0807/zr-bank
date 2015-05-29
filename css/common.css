@@ -203,6 +203,11 @@
     margin-right: 17px;
     padding: 10px 10px 10px 48px;
 }
+.m-form .u-ipt:focus{
+    border: 1px solid #90c1f5;
+    box-shadow: 0 0 3px #90c1f5;
+    color: #595959;
+}
 .m-form .u-ipt-sm{
 	width: 140px;
 	padding:10px;
@@ -217,6 +222,50 @@
 }
 .m-form #getMobileCode{
 	width: 204px;
+}
+
+/* 表单模块2 */
+.m-form2 .u-ipt{
+	width: 280px;
+	padding: 11px 10px;
+	background: #fcfcfc;
+    color: #595959;
+    vertical-align: middle;
+}
+.m-form2 .u-iptCode{
+	width: 106px;
+}
+.m-form2 .formItem{
+	padding: 0 5px 20px 170px;
+    position: relative;
+}
+.m-form2 .label{
+	float: left;
+    font-size: 14px;
+    margin-left: -180px;
+    padding-top: 12px;
+    text-align: right;
+    width: 170px;
+}
+.m-form2 #subBtn{
+	width: 170px;
+	height: 38px;
+}
+.m-form2 .required{
+	color: red;
+    font-family: SimSun;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.m-form2 .m-button{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #ff5c00;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    width: auto;
 }
 
 /* 圆形进度条 */

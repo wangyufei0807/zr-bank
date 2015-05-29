@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>用户登录 - 中融贷 - 安全透明互联网金融平台</title>
+	<title>找回密码 - 中融贷 - 安全透明互联网金融平台</title>
 	<meta name="keywords" content="中融,中融贷,zrbank,zr-bank,P2P理财,互联网金融,互联网理财,应收账款,银行票据" />
 	<meta name="description" content="中融贷是一家基于互联网技术为用户提供P2P金融理财服务的专业化公司。采用第三方账户资金托管，100%本息保障，让您投的放心，赚的安心！" />
 
 	<link rel="stylesheet" type="text/css" href="../../css/base.css" />
 	<link rel="stylesheet" type="text/css" href="../../css/common.css" />
 
-	<link rel="stylesheet" type="text/css" href="../../css/page/login_register.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/page/findPwd.css" />
 </head>
 <body>
 	<div class="g-doc">
@@ -48,7 +48,7 @@
 		<div class="g-bd bgc1 border-bt2">
 			<div class="g-in">
 				<div class="m-topInfo">
-					<h3>用户登录</h3>
+					<h3>找回密码</h3>
 				</div>
 			</div>
 		</div>
@@ -57,34 +57,58 @@
 		<!-- 主体 -->
 		<div class="g-bd mt20 mb20">
 			<div class="g-in f-cb bgc1">
-				<div class="m-link f-cb"><span>没有账号？<a href="#">立即注册</a></span></div>
 				<div class="m-box">
-					<div class="m-form">
-						<form>
-							<div class="formItem">
-								<i class="icon icon1"></i>
-								<span class="icon-line"></span>
-								<input type="text" class="u-ipt" placeholder="请输入昵称，将用作登录" autocomplete="off">
-							</div>
-							<div class="formItem">
-								<i class="icon icon2"></i>
-								<span class="icon-line"></span>
-								<input type="text" class="u-ipt" placeholder="请输入密码" autocomplete="off">
-							</div>
-							<div class="formItem" style="margin-bottom:20px">
-								<label>
-									<span>
-										<input type="checkbox" checked="checked" name="rememberMe" id="rememberMe" class="ui-checkbox">
-		                            </span>
-		                            记住我
-		                        </label>
-		                        <a href="#" style="margin-left: 246px;color: #316fb1;">忘记密码？</a>
-							</div>
-							<div class="formItem" style="margin-bottom:20px">
-								<input type="submit" id="subBtn" class="u-btn u-btn-c2 f16" value="立即登录">
-							</div>
-							<p class="security"><i class="icon icon5"></i><span>您的信息已使用SSL加密技术，数据传输安全</span></p>
-						</form>
+					<div class="m-findPwdStep">
+						<ul class="m-step f-cb">
+			                <li class="start done">
+			                    <div class="line">-</div>
+			                    <div class="icon">
+			                        <i class="iconFont"></i>
+			                        <i class="number">1</i>
+			                        <span class="text">填写账号信息</span>
+			                    </div>
+			                </li>
+			                <li class="done">
+			                    <div class="line">-</div>
+			                    <div class="icon">
+			                        <i class="iconFont"></i>
+			                        <i class="number">2</i>
+			                        <span class="text">验证账户信息</span>
+			                    </div>
+			                </li>
+			                <li class="active">
+			                    <div class="line">-</div>
+			                    <div class="icon">
+			                        <i class="iconFont"></i>
+			                        <i class="number">3</i>
+			                        <span class="text">重置密码</span>
+			                    </div>
+			                </li>
+			                <li class="end">
+			                    <div class="icon">
+			                        <i class="iconFont"></i>
+			                        <i class="number">4</i>
+			                        <span class="text">成功</span>
+			                    </div>
+			                </li>
+						</ul>
+					</div>
+					<div class="m-findPwdForm">
+						<div class="m-form2">
+							<form>
+								<div class="formItem">
+									<label class="label"><span class="required">*</span>新密码：</label>
+									<input type="text" class="u-ipt" placeholder="请输入新密码" autocomplete="off">
+								</div>
+								<div class="formItem">
+									<label class="label"><span class="required">*</span>确认新密码：</label>
+									<input type="text" class="u-ipt" placeholder="请输入确认密码" autocomplete="off">
+								</div>
+								<div class="formItem" style="margin-bottom:20px">
+									<input type="submit" id="subBtn" class="u-btn u-btn-c2 f16" value="下一步">
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>

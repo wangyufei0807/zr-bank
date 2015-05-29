@@ -28,7 +28,7 @@ del,ins,u,s,a,a:hover{text-decoration:none;}
 body,textarea,input,button,select,keygen,legend{font:14px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB","宋体";color:#5d5d5d;outline:0;}
 body{background:#fff;}
 a{outline: none;color: #5d5d5d}
-a:hover{color:#316fb1;} 
+a:hover{color:#316fb1;}
 
 /* function */
 .f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
@@ -1175,7 +1175,10 @@ a:hover{color:#316fb1;}
 .u-btn-c4:hover,.u-btn-c4:focus{background:#afafaf;}
 /* 浅蓝 */
 .u-btn-c5{background:#b7c6d5;}
-.u-btn-c5:hover,.u-btn-c3:focus{background:#b7c6d5;}
+.u-btn-c5:hover,.u-btn-c5:focus{background:#b7c6d5;}
+/* 蓝 */
+.u-btn-c6{background:#375473;}
+.u-btn-c6:hover,.u-btn-c6:focus{background:#2a4058;}
 
 
 /* 通用自定义按钮组合 */
@@ -1195,6 +1198,14 @@ a:hover{color:#316fb1;}
     font-size:14px;
     color:#595959;
     background:#fff;
+}
+.u-ipt:hover{
+    border: 1px solid #0697da;
+}
+.u-ipt:focus{
+    border: 1px solid #90c1f5;
+    box-shadow: 0 0 3px #90c1f5;
+    color: #595959;
 }
 /* 文本输入框-窄 */
 .u-ipt-1{width:90px;}

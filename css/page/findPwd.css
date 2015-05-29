@@ -1,0 +1,152 @@
+/*
+* @description: 找回密码样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-29
+*/
+
+/* top信息 */
+.m-topInfo h3{
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+}
+
+/* box */
+.m-box{
+    padding-bottom: 60px;
+}
+
+/* 找回密码step */
+.m-findPwdStep{
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+/* step模块 */
+.m-step{
+	color: #b7b7b7;
+    font-size: 14px;
+    list-style: outside none none;
+    padding: 0;
+    position: relative;
+}
+.m-step li{
+	float: left;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    width: 33%;
+}
+.m-step li .line{
+	background: #e3e7e6 none repeat scroll 0 0;
+    display: block;
+    height: 2px;
+    line-height: 1;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.m-step li .icon{
+	font-family: arial,helvetica,sans-serif;
+    height: 50px;
+    left: -25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 150px;
+}
+.m-step li .icon .iconFont{
+	color: #ff7001;
+    font-size: 30px;
+    left: 3px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-shadow: 1px 1px 2px #fff, 0 0 0 #ccc, 1px 1px 2px #fff;
+    top: -11px;
+    background: rgba(0, 0, 0, 0) url(../../images/step-icon-gray.png) no-repeat scroll 0 0;
+    height: 42px;
+    width: 42px;
+}
+.m-step li .icon .number{
+	font-size: 21px;
+    font-style: normal;
+    font-weight: 800;
+    left: -1px;
+    line-height: 1.5;
+    padding: 0 18px;
+    position: absolute;
+    top: -6px;
+    color: #ffffff;
+}
+.m-step li .icon .text{
+	height: 20px;
+    left: -49px;
+    line-height: 20px;
+    position: relative;
+    text-shadow: 0 1px 0 #fff;
+    top: 52px;
+}
+.m-step li.end{
+	position: absolute;
+    top: 0;
+    width: 150px;
+    right: -148px;
+}
+.m-step li.active .iconFont,.m-step li.done .iconFont{
+	background: rgba(0, 0, 0, 0) url(../../images/step-icon-light.png) no-repeat scroll 0 0;
+    height: 42px;
+    width: 42px;
+}
+.m-step li.active .text,.m-step li.done .text{
+	color: #19bd9b;
+    font-family: "Microsoft Yahei";
+}
+.m-step li.done .line{
+    background: #19bd9b;
+}
+
+/* 表单边距 */
+.m-findPwdForm .m-form2{
+	padding-left: 215px;
+}
+
+.m-findPwdForm .info{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 成功 */
+.m-success{
+    margin-left: 300px;
+}
+.m-success .icon{
+    margin-right: 10px;
+    height: 33px;
+    width: 33px;
+    display: inline-block;
+    font-size: 0;
+    background: url(../../images/correct.png) no-repeat;
+}
+.m-success .successInfo h3{
+    font-size: 22px;
+}
+.m-success .successInfo p{
+    color: #999;
+    margin-top: 20px;
+}
+.m-success .redirect{
+    margin-top: 40px;
+}
+.m-success .redirect .u-btn{
+    width: 100px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 38px;
+}
