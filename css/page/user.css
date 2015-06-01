@@ -1,0 +1,311 @@
+/*
+* @description: 用户中心样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-29
+*/
+
+/* 布局 */
+.g-sd{position:relative;float:left;width:180px;margin-right:-180px;}
+.g-mn{float:right;width:100%;}
+.g-mnc{margin-left:200px;}
+
+/* 用户中心icon */
+.icon{
+	background: url(../../images/user_center_icon.png) no-repeat;
+	display: inline-block;
+}
+.icon2{
+	background: url(../../images/zr_icon.png) no-repeat;
+	display: inline-block;
+}
+
+/* 用户中心标题 */
+.m-tit{
+	background: #fff;
+    border-bottom: 3px solid #f2f3f5;
+    height: 48px;
+    line-height: 48px;
+}
+.m-tit h3{
+	border-bottom: 3px solid #d7dade;
+    display: inline;
+    float: left;
+    padding: 0 30px;
+}
+
+/* 用户中心table列表 */
+.m-table table{
+	width: 100%
+}
+.m-table table tr th{
+	background: #f7f8fa none repeat scroll 0 0;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.m-table table tr td{
+	border-bottom: 1px solid #ebecee;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.m-table table tr td.empty{
+	padding: 80px 0;
+}
+.m-table table tr td.empty .icon-info{
+	background-position: -422px -5px;
+    height: 33px;
+    width: 33px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* 侧栏导航样式 */
+.m-side .list li{
+	background: #f2f3f5;
+    border-bottom: 1px solid #fff;
+}
+.m-side .list li a{
+	height: 50px;
+	line-height: 50px;
+	color: #506985;
+	padding-left: 60px;
+	display: block;
+}
+.m-side .list li.item a{
+	position: relative;
+}
+.m-side .list li a:hover{
+	color: #316fb1;
+}
+.m-side .list li.active{
+	background:#375473;
+}
+.m-side .list li.active a{
+	color: #ffffff;
+}
+
+.m-side .subList li{
+	background: #ffffff;
+    border-bottom: 1px solid #ebecee;
+}
+.m-side .subList li.last{
+	border-bottom: medium none;
+}
+
+/* 侧栏导航icon */
+.m-side .icon{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.m-side .icon-sider-index{
+	background-position: 0 -150px;
+    height: 23px;
+    width: 23px;
+    top: 13px;
+}
+.m-side .icon-sider-assets{
+	background-position: -66px -150px;
+    height: 21px;
+    width: 25px;
+    top: 15px;
+}
+.m-side .icon-sider-finance{
+	background-position: -150px -106px;
+    height: 25px;
+    width: 22px;
+    top: 13px;
+}
+.m-side .icon-sider-setting{
+	background-position: -100px -100px;
+    height: 26px;
+    width: 20px;
+}
+.m-side .icon-sider-interaction{
+	background-position: -150px 0;
+    height: 26px;
+    width: 25px;
+}
+
+/* 用户中心 - 首页 */
+
+/* 账户信息 */
+.m-account{
+	padding: 30px 0 0 30px;
+	height: 110px;
+}
+.m-account .con{
+	float: left;
+}
+.m-account .user{
+	width: 184px;
+}
+.m-account .user h3{
+	color: #333;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.m-account .operate li{
+	float: left;
+	margin-right: 20px;
+}
+.m-account .operate li a{
+	background: #ebecee;
+    border-radius: 11px;
+    display: block;
+    height: 24px;
+    text-align: center;
+    width: 24px;
+}
+.m-account .operate li .icon{
+	vertical-align: middle;
+}
+.m-account .operate li .icon-mobile{
+	background-position: -185px -78px;
+    height: 16px;
+    width: 14px;
+}
+.m-account .operate li .icon-mobile-gray{
+	background-position: -152px -150px;
+    height: 16px;
+    width: 14px;
+}
+.m-account .operate li .icon-idcard{
+	background-position: -185px -130px;
+    height: 16px;
+    width: 14px;
+}
+.m-account .operate li .icon-idcard-gray{
+	background-position: -185px -52px;
+    height: 16px;
+    width: 14px;
+}
+.m-account .operate li .icon-email{
+	background-position: -185px -26px;
+    height: 16px;
+    width: 15px;
+}
+.m-account .operate li .icon-email-gray{
+	background-position: -185px 0;
+    height: 16px;
+    width: 15px;
+}
+.m-account .line{
+	background: #ebecee;
+    float: left;
+    height: 70px;
+    width: 1px;
+}
+.m-account .lixi{
+	width: 144px;
+	padding-left: 60px;
+}
+.m-account .lixi h4{
+	color: #66686b;
+    font-size: 14px;
+    height: 29px;
+}
+.m-account .lixi p{
+	color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.m-account .lixi p span{
+	font-family: Arial;
+    font-size: 24px;
+    margin-right: 4px;
+}
+.m-account .btn{
+	padding-left: 40px;
+	position: relative;
+}
+.m-account .btn .u-btn{
+	width: 50px;
+}
+.m-account .btn .whyslb{
+	position: absolute;
+	right: -30px;
+    top: 42px;
+}
+.m-account .btn .whyslb .icon{
+	vertical-align: middle;
+}
+.m-account .btn .whyslb .icon-slb{
+	background-position: -213px -67px;
+    height: 23px;
+    width: 23px;
+}
+
+/* 资产信息 */
+.m-assets .assets-items{
+	background: #f2f3f5;
+    height: 82px;
+    overflow: hidden;
+    padding: 37px 30px 0;
+}
+.m-assets .assets-items dl{
+	float: left;
+    position: relative;
+}
+.m-assets .assets-items dl dt{
+	float: left;
+    margin-right: 10px;
+}
+.m-assets .assets-items dl dd{
+	float: left;
+}
+
+.m-assets .assets-items dl dt .icon-assets-plan{
+	background-position: 0 -50px;
+    height: 40px;
+    width: 40px;
+}
+.m-assets .assets-items dl dt .icon-assets-usable{
+	background-position: -100px 0;
+    height: 40px;
+    width: 40px;
+}
+.m-assets .assets-items dl dt .icon-assets-freeze{
+	background-position: 0 -100px;
+    height: 40px;
+    width: 40px;
+}
+.m-assets .assets-items dl dt .icon-assets-loan{
+	background-position: -50px 0;
+    height: 40px;
+    width: 40px;
+}
+.m-assets .assets-items .icon-jiahao{
+	background-position: -150px -36px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.m-assets .assets-total{
+	color: #375473;
+    font-size: 24px;
+    height: 131px;
+    position: relative;
+    text-align: center;
+    background: #ffffff url(../../images/assets-total-bg.png) no-repeat center;
+}
+.m-assets .assets-total p{
+	padding-top: 50px;
+	line-height: 20px;
+}
+.m-assets .assets-total span{
+	font-family: Arial;
+    font-size: 30px;
+    margin: 0 3px;
+    position: relative;
+    top: 2px;
+}

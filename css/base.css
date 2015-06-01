@@ -80,9 +80,9 @@ a:hover{color:#316fb1;}
 
 /* 字体颜色 */
 /* 橙色 */
-.text-c1{color: #FC5404;}
+.text-c1,.text-c1:hover{color: #FC5404;}
 /* 蓝色 */
-.text-c2{color: #316FB1;}
+.text-c2,.text-c2:hover{color: #316FB1;}
 /* 灰色 */
 .text-c3{color: #C0C0C0;}
 /* 白色 */
@@ -93,6 +93,8 @@ a:hover{color:#316fb1;}
 .text-c6{color: #008955}
 /* 深灰 */
 .text-c7{color: #333;}
+/* 浅蓝色 */
+.text-c8,.text-c8:hover{color: #3d89b4;}
 
 /* 长度高度 */
 .w{width: 100%;}
@@ -188,24 +190,6 @@ a:hover{color:#316fb1;}
 /* 布局 */
 .g-doc{background-color: #ebeef3;}
 .g-in{width: 1000px;margin: 0 auto;}
-.g-sd{position:relative;float:right;width:300px;margin-left:-300px}
-.g-mn{float:left;width:100%;}
-.g-mnc{margin-right:320px;}
-
-/* 关于我们 - 两列右侧自适应布局 */
-.g-sd1{position:relative;float:left;width:180px;margin-right:-180px;}
-.g-mn1{float:right;width:100%;}
-.g-mn1c{margin-left:180px;}
-
-/* 项目详情 - 左侧自适应布局 */
-.g-sd2{position:relative;float:right;width:340px;margin-left:-340px}
-.g-mn2{float:left;width:100%;}
-.g-mn2c{margin-right:350px;}
-
-/* 收益高 门槛低布局 */
-.g-sd3{position:relative;float:left;width:300px;margin-right:-300px;}
-.g-mn3{float:right;width:100%;}
-.g-mn3c{margin-left:320px;}
 
 /* 动画 */
 .a-bounce,.a-flip,.a-flash,.a-shake,.a-swing,.a-wobble,.a-ring{-webkit-animation:1s ease;-moz-animation:1s ease;-ms-animation:1s ease;animation:1s ease;}

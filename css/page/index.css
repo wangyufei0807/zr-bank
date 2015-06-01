@@ -5,6 +5,11 @@
 * @time: 2015-05-12
 */
 
+/* 布局 */
+.g-sd{position:relative;float:right;width:300px;margin-left:-300px}
+.g-mn{float:left;width:100%;}
+.g-mnc{margin-right:320px;}
+
 /* 焦点图 */
 .m-silder{
 	height: 330px;

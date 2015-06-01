@@ -5,6 +5,11 @@
 * @time: 2015-05-27
 */
 
+/* 收益高 门槛低布局 */
+.g-sd3{position:relative;float:left;width:300px;margin-right:-300px;}
+.g-mn3{float:right;width:100%;}
+.g-mn3c{margin-left:320px;}
+
 /* banner */
 .m-banner{
 	height: 330px;

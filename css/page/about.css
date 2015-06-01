@@ -5,6 +5,11 @@
 * @time: 2015-05-25
 */
 
+/* 关于我们 - 两列右侧自适应布局 */
+.g-sd1{position:relative;float:left;width:180px;margin-right:-180px;}
+.g-mn1{float:right;width:100%;}
+.g-mn1c{margin-left:180px;}
+
 /* 侧栏导航 */
 .m-subnav li{
 	border-bottom: 1px solid #ebecee;

@@ -5,6 +5,11 @@
 * @time: 2015-05-25
 */
 
+/* 项目详情 - 左侧自适应布局 */
+.g-sd2{position:relative;float:right;width:340px;margin-left:-340px}
+.g-mn2{float:left;width:100%;}
+.g-mn2c{margin-right:350px;}
+
 /* 面包屑导航 */
 .m-crumb{
 	overflow:hidden;
