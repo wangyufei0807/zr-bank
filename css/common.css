@@ -247,7 +247,7 @@
     text-align: right;
     width: 170px;
 }
-.m-form2 #subBtn{
+.m-form2 .u-btn{
 	width: 170px;
 	height: 38px;
 }
@@ -266,6 +266,28 @@
     line-height: 20px;
     padding: 0;
     width: auto;
+}
+
+/* 表单2扩展 - 充值表单 */
+.m-form2-1 .label{
+	padding-top: 6px;
+}
+.m-form2-1 .formText{
+	display: inline-block;
+    margin-top: 6px;
+}
+.m-form2-1 .formText strong{
+	font-weight: bold;
+}
+.m-form2-1 .u-ipt{
+	padding: 7px 9px;
+	width: auto;
+}
+.m-form2-1 .formItem{
+	margin-left: -92px;
+}
+.m-form2-1 .u-btn{
+	width: auto;
 }
 
 /* 圆形进度条 */

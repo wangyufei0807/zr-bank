@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>用户中心</title>
+	<title>提现 - 用户中心</title>
 	<meta name="keywords" content="中融,中融贷,zrbank,zr-bank,P2P理财,互联网金融,互联网理财,应收账款,银行票据" />
 	<meta name="description" content="中融贷是一家基于互联网技术为用户提供P2P金融理财服务的专业化公司。采用第三方账户资金托管，100%本息保障，让您投的放心，赚的安心！" />
 
@@ -51,11 +51,11 @@
 					<!-- 侧栏导航 -->
 					<div class="m-side">
 						<ul class="list">
-							<li class="item index active"><a href="#"><i class="icon icon-sider-index"></i>我的账户</a></li>
+							<li class="item index"><a href="#"><i class="icon icon-sider-index"></i>我的账户</a></li>
 							<li class="item"><a href="#"><i class="icon icon-sider-assets"></i>资产管理</a>
 								<ul class="subList">
 									<li class="subItem"><a href="#">充值</a></li>
-									<li class="subItem"><a href="#">提现</a></li>
+									<li class="subItem active"><a href="#">提现</a></li>
 									<li class="subItem last"><a href="#">资金流水</a></li>
 								</ul>
 							</li>
@@ -84,116 +84,51 @@
 				<!-- 内容 -->
 				<div class="g-mn">
 					<div class="g-mnc">
-						<div class="m-userIndex">
-							<!-- 账户信息 -->
-							<div class="m-account bgc1 mb20">
-								<div class="mb5 f-cb">
-									<div class="con user">
-										<h3>shanyusenlin</h3>
-										<ul class="operate f-cb">
-											<li><a href="#" id="valid-mobile" title="手机号码已验证！"><i class="icon icon-mobile"></i></a></li>
-											<li><a href="#" id="valid-idNo" title="身份证未验证！"><i class="icon icon-idcard-gray"></i></a></li>
-											<li><a href="#" id="valid-email" title="邮箱未验证！"><i class="icon icon-email-gray"></i></a></li>
-										</ul>
-									</div>
-									<div class="line"></div>
-									<div class="con lixi yiub">
-										<h4>已赚利息</h4>
-										<p><span>0.00</span>元</p>
-									</div>
-									<div class="line"></div>
-									<div class="con lixi duein">
-										<h4>待收利息</h4>
-										<p><span>0.00</span>元</p>
-									</div>
-									<div class="line"></div>
-									<div class="con btn">
-										<p><a href="#" class="u-btn u-btn-c2">充值</a></p>
-										<p class="mt5"><a href="#" class="u-btn u-btn-c6">生利宝</a></p>
-										<a href="#" class="whyslb" title="生利宝说明"><i class="icon icon-slb"></i></a>
-									</div>
-								</div>
-								<div>
-									<a href="#" class="text-c1" target="_blank">[登录]</a> 第三方支付账号：zr_shanyusenlin				
-								</div>	
+						<div class="m-userRecharge bgc1">
+							<div class="m-tit">
+								<h3>提现</h3>
 							</div>
+							<div class="f-cb m-withdraw pt20">
+								<div class="f-cb border-bt2">
+									<div class="m-tit2">
+										<strong>选择银行卡</strong>
+									</div>
+									<div class="f-fl pb20">
+										银行卡列表
+									</div>
+								</div>
+								<div class="f-cb">
+									<div class="m-tit2">
+										<strong>填写提现信息</strong>
+									</div>
+									<div class="f-fl pb20 w600">
+										<div class="m-form2 m-form2-1">
+											<div class="formItem">
+												<label class="label">可提金额：</label>
+												<p class="formText"><strong>0.00元</strong></p>
+											</div>
+											<div class="formItem">
+												<label class="label">提现金额：</label>
+												<input type="text" placeholder="请输入提现金额" name="" value="" autocomplete="off" class="u-ipt"> 元
+											</div>
+											<div class="formItem" style="margin-bottom:20px">
+												<input type="submit" id="subBtn" class="u-btn u-btn-c6 f16" value="提现">
+											</div>
+										</div>
 
-							<!-- 资产信息 -->
-							<div class="m-assets bgc1 mb20">
-								<div class="assets-items f-cb">
-									<dl>
-										<dt><i class="icon icon-assets-plan"></i></dt>
-										<dd>
-											<h3>可用金额(元)</h3>
-											<p><span id="AvlBal">0.00 元</span></p>
-										</dd>	
-									</dl>
-									<div class="icon icon-jiahao"></div>
-									<dl>
-										<dt><i class="icon icon-assets-usable"></i></dt>
-										<dd>
-											<h3>冻结金额(元)</h3>
-											<p><span id="FrzBal">0.00 元</span></p>
-										</dd>	
-									</dl>
-									<div class="icon icon-jiahao"></div>
-									<dl>
-										<dt><i class="icon icon-assets-freeze"></i></dt>
-										<dd>
-											<h3>生利宝(元)</h3>
-											<p><span id="SLBBal">0.00 元</span></p>
-										</dd>	
-									</dl>
-									<div class="icon icon-jiahao"></div>
-									<dl>
-										<dt><i class="icon icon-assets-loan"></i></dt>
-										<dd>
-											<h3>可用金额(元)</h3>
-											<p><span id="benxi">0.00 元</span></p>
-										</dd>	
-									</dl>
-								</div>
-								<div class="assets-total">
-									<p>账户净资产<span>0.00 元</span></p>
-								</div>
-							</div>
-
-							<!-- 收益中的投资 -->
-							<div class="m-trend bgc1">
-								<div class="m-tit">
-									<a href="#" class="f-fr mr20">更多</a>
-									<h3>收益中的投资</h3>
-								</div>
-								<div class="m-table">
-									<table>
-										<tbody>
-											<tr>
-												<th width="150">名称</th>
-												<th>借款期限</th>
-												<th>投资金额(元)</th>
-												<th>年利率</th>
-												<th>收益</th>
-												<th>状态</th>
-												<th>合同</th>
-											</tr>
-											<tr>
-												<td colspan="9" class="empty">
-													<p><i class="zr-icon icon-info"></i>暂时没有数据可以显示。</p>
-												</td>
-											</tr>
-											<tr class="">
-				                                <td><a title="测试wx1" target="_blank" href="#" class="text-c2">测试wx1</a> </td>
-				                                <td>
-				                                    55天
-				                                </td>
-				                                <td>200.00 </td>
-				                                <td>10.00% </td>
-				                                <td>81.81 </td>
-				                                <td><a class="text-c8" href="#">还款中</a> </td>
-				                                <td><a class="text-c8" href="#">查看</a> </td>
-				                            </tr>
-										</tbody>
-									</table>
+										<!-- 温馨提示 -->
+										<div class="m-prompt">
+											<h1 class="prompt-tit"><i class="zr-icon icon-prompt"></i><span>温馨提示</span></h1>
+											<ul class="prompt-list">
+	                                            <li><span>1</span>提现须知：身份认证、账户托管开通、提现银行和银行卡均设置成功后，才能进行提现；</li>
+	                                            <li><span>2</span>提现费用：每笔 <font style="color:red">2</font> 元，由合作方汇付天下(第三方支付平台)收取；</li>
+	                                            <li><span>3</span><font style="color:red">扣费规则：提现后，账户余额大于2元，从账户余额中收取手续费；账户余额不足2元，从提现的资金中收取2元。如：账户余额10100元，提现100元，提现后，到账资金100元，账户余额9998元；若账户余额10100元，提现10100元，到账资金10098元，账户余额0元；</font> </li>
+	                                            <li><span>4</span>提现时间：账户余额随时可以申请提现（包括周六/周日/法定节假日）；</li>
+												<li><span>5</span>到账时间：申请提现后的下一个工作日到账（周六/周日/法定节假日均除外）。实际到账时间依据账户托管方(第三方支付平台)及提现银行而有所差异；</li>
+												<li><span>6</span>特殊声明：禁止洗钱、信用卡套现、虚假交易等行为，一经发现将终止该账户的使用。</li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

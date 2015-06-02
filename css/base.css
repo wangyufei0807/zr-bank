@@ -30,6 +30,12 @@ body{background:#fff;}
 a{outline: none;color: #5d5d5d}
 a:hover{color:#316fb1;}
 
+/* 全局icon */
+.zr-icon{
+    background: url(../images/zr_icon.png) no-repeat;
+    display: inline-block;
+}
+
 /* function */
 .f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
 .f-cb,.f-cbli li{zoom:1;}
@@ -84,7 +90,7 @@ a:hover{color:#316fb1;}
 /* 蓝色 */
 .text-c2,.text-c2:hover{color: #316FB1;}
 /* 灰色 */
-.text-c3{color: #C0C0C0;}
+.text-c3,.text-c3:hover{color: #C0C0C0;}
 /* 白色 */
 .text-c4{color: #ffffff;}
 /* 黄色 */
@@ -1197,6 +1203,19 @@ a:hover{color:#316fb1;}
 .u-ipt-err{
     border: 1px solid #ffbe8f;
     box-shadow: 0 0 3px #ffbe8f;
+}
+
+/* 通用radio样式 */
+.u-radio{
+    height: 16px;
+    width: 16px;
+    background-position: -158px -148px;
+    cursor: pointer;
+    display: block;
+    vertical-align: middle;
+}
+.u-radio-checked{
+    background-position: -134px -148px;
 }
 
 /* 边框 */
