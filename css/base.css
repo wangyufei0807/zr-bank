@@ -101,6 +101,8 @@ a:hover{color:#316fb1;}
 .text-c7{color: #333;}
 /* 浅蓝色 */
 .text-c8,.text-c8:hover{color: #3d89b4;}
+/* 红色 */
+.text-c9,.text-c9:hover{color: red}
 
 /* 长度高度 */
 .w{width: 100%;}
