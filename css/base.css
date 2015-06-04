@@ -103,6 +103,8 @@ a:hover{color:#316fb1;}
 .text-c8,.text-c8:hover{color: #3d89b4;}
 /* 红色 */
 .text-c9,.text-c9:hover{color: red}
+/* 灰色999 */
+.text-c10,.text-c10:hover{color: #999999}
 
 /* 长度高度 */
 .w{width: 100%;}
@@ -1195,8 +1197,8 @@ a:hover{color:#316fb1;}
     border: 1px solid #0697da;
 }
 .u-ipt:focus{
-    border: 1px solid #90c1f5;
-    box-shadow: 0 0 3px #90c1f5;
+    border: 1px solid #07f;
+    box-shadow: 0 0 3px #8cddff;
     color: #595959;
 }
 /* 文本输入框-窄 */

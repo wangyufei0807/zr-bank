@@ -422,4 +422,48 @@
 .m-bangka .thickbox{
     color: #0eafe6;
 }
-.m-bangka 
+
+/* 资金类型 */
+.m-moneyType li{
+    float: left;
+}
+.m-moneyType li.liOne{
+    line-height: 35px;
+    margin-top: 3px;
+    text-align: right;
+    width: 80px;
+}
+.m-moneyType li.btntypes{
+    line-height: 35px;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.m-moneyType li.btntypes a{
+    font-weight: 400;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    color: #316fb1
+}
+.m-moneyType li.btntypes a:hover,.m-moneyType li.btntypes a.current{
+    background: #316fb1 none repeat scroll 0 0;
+    color: #fff;
+}
+
+/* 资金状态 */
+.m-moneyStatus li{
+    float: left;
+    margin-right: 10px;
+}
+.m-moneyStatus li select{
+    height: 32px;
+}
+.m-moneyStatus .btn-cx{
+    background-color: #316fb1;
+}

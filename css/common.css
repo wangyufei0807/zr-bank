@@ -187,9 +187,11 @@
 	font-size: 14px;
 }
 .m-paging .next{
-	margin-right: 15px;
 	font-weight: bold;
 	line-height: 17px;
+}
+.m-paging .last{
+	
 }
 
 /* 表单模块 */
