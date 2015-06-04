@@ -83,94 +83,92 @@
 
 				<!-- 内容 -->
 				<div class="g-mn">
-					<div class="g-mnc">
-						<div class="m-userRecharge bgc1">
-							<div class="m-tit m-tit-1">
-								<h3><a href="#" class="text-c3">个人充值</a></h3>
-								<h3 class="current"><a href="#" class="text-c1">企业充值</a></h3>
+					<div class="g-mnc bgc1">
+						<div class="m-tit m-tit-1">
+							<h3><a href="#" class="text-c3">个人充值</a></h3>
+							<h3 class="current"><a href="#" class="text-c1">企业充值</a></h3>
+						</div>
+						<div class="f-cb m-recharge pt20">
+							<div class="m-tit2">
+								<strong>充值银行</strong>
 							</div>
-							<div class="f-cb m-recharge pt20">
-								<div class="m-tit2">
-									<strong>充值银行</strong>
+							<div class="f-fl w600 pb20">
+								<!-- 银行选项 -->
+								<ul class="m-bankOption f-cb">
+									<li class="current" data-name="CCB">
+										<span class="zr-icon u-radio u-radio-checked">
+											<input type="radio" class="bankId" value="CCB" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/CCB.png" height="36" width="136" title="中国建设银行" alt="中国建设银行"></label>
+									</li>
+									<li data-name="ICBC">
+										<span class="zr-icon u-radio">
+											<input type="radio" class="bankId" value="ICBC" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/ICBC.png" height="36" width="136" title="中国工商银行" alt="中国工商银行"></label>
+									</li>
+									<li data-name="CMB">
+										<span class="zr-icon u-radio">
+											<input type="radio" class="bankId" value="CMB" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/CMB.png" height="36" width="136" title="招商银行" alt="招商银行"></label>
+									</li>
+									<li data-name="BOC">
+										<span class="zr-icon u-radio">
+											<input type="radio" class="bankId" value="BOC" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/BOC.png" height="36" width="136" title="中国银行" alt="中国银行"></label>
+									</li>
+									<li data-name="ABC">
+										<span class="zr-icon u-radio">
+											<input type="radio" class="bankId" value="ABC" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/ABC.png" height="36" width="136" title="中国农业银行" alt="中国农业银行"></label>
+									</li>
+									<li data-name="BOCM">
+										<span class="zr-icon u-radio">
+											<input type="radio" class="bankId" value="BOCM" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/BOCM.png" height="36" width="136" title="交通银行" alt="交通银行"></label>
+									</li>
+									<li data-name="CEB">
+										<span class="zr-icon u-radio">
+											<input type="radio" class="bankId" value="CEB" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/CEB.png" height="36" width="136" title="中国光大银行" alt="中国光大银行"></label>
+									</li>
+									<li data-name="SPDB">
+										<span class="zr-icon u-radio">
+											<input type="radio" class="bankId" value="SPDB" name="bankId" />
+										</span>
+										<label><img src="../../images/bank/company/SPDB.png" height="36" width="136" title="浦发银行" alt="浦发银行"></label>
+									</li>
+								</ul>
+
+								<!-- 充值表单 -->
+								<div class="m-form2 m-form2-1">
+									<div class="formItem">
+										<label class="label">可投金额：</label>
+										<p class="formText"><strong>0.00元</strong></p>
+									</div>
+									<div class="formItem">
+										<label class="label">充值金额：</label>
+										<input type="text" placeholder="请输入您要充值的金额" name="" value="" autocomplete="off" class="u-ipt"> 元
+									</div>
+									<div class="formItem" style="margin-bottom:20px">
+										<input type="submit" id="subBtn" class="u-btn u-btn-c6 f16" value="充值">
+									</div>
 								</div>
-								<div class="f-fl w600 pb20">
-									<!-- 银行选项 -->
-									<ul class="m-bankOption f-cb">
-										<li class="current" data-name="CCB">
-											<span class="zr-icon u-radio u-radio-checked">
-												<input type="radio" class="bankId" value="CCB" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/CCB.png" height="36" width="136" title="中国建设银行" alt="中国建设银行"></label>
-										</li>
-										<li data-name="ICBC">
-											<span class="zr-icon u-radio">
-												<input type="radio" class="bankId" value="ICBC" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/ICBC.png" height="36" width="136" title="中国工商银行" alt="中国工商银行"></label>
-										</li>
-										<li data-name="CMB">
-											<span class="zr-icon u-radio">
-												<input type="radio" class="bankId" value="CMB" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/CMB.png" height="36" width="136" title="招商银行" alt="招商银行"></label>
-										</li>
-										<li data-name="BOC">
-											<span class="zr-icon u-radio">
-												<input type="radio" class="bankId" value="BOC" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/BOC.png" height="36" width="136" title="中国银行" alt="中国银行"></label>
-										</li>
-										<li data-name="ABC">
-											<span class="zr-icon u-radio">
-												<input type="radio" class="bankId" value="ABC" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/ABC.png" height="36" width="136" title="中国农业银行" alt="中国农业银行"></label>
-										</li>
-										<li data-name="BOCM">
-											<span class="zr-icon u-radio">
-												<input type="radio" class="bankId" value="BOCM" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/BOCM.png" height="36" width="136" title="交通银行" alt="交通银行"></label>
-										</li>
-										<li data-name="CEB">
-											<span class="zr-icon u-radio">
-												<input type="radio" class="bankId" value="CEB" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/CEB.png" height="36" width="136" title="中国光大银行" alt="中国光大银行"></label>
-										</li>
-										<li data-name="SPDB">
-											<span class="zr-icon u-radio">
-												<input type="radio" class="bankId" value="SPDB" name="bankId" />
-											</span>
-											<label><img src="../../images/bank/company/SPDB.png" height="36" width="136" title="浦发银行" alt="浦发银行"></label>
-										</li>
+
+								<!-- 温馨提示 -->
+								<div class="m-prompt">
+									<h1 class="prompt-tit"><i class="zr-icon icon-prompt"></i><span>温馨提示</span></h1>
+									<ul class="prompt-list">
+		                                <li><span>1</span>目前充值不收取任何手续费；</li>
+		                                <li><span>2</span>最低充值金额应大于等于 1 元；</li>
+		                                <li><span>3</span>您的资金将从充值银行卡转入第三方支付公司的托管账户；</li>
+		                                <li><span>4</span>每日的充值限额依据各银行限额为准，请注意您的银行卡充值限制，以免造成不便；</li>
 									</ul>
-
-									<!-- 充值表单 -->
-									<div class="m-form2 m-form2-1">
-										<div class="formItem">
-											<label class="label">可投金额：</label>
-											<p class="formText"><strong>0.00元</strong></p>
-										</div>
-										<div class="formItem">
-											<label class="label">充值金额：</label>
-											<input type="text" placeholder="请输入您要充值的金额" name="" value="" autocomplete="off" class="u-ipt"> 元
-										</div>
-										<div class="formItem" style="margin-bottom:20px">
-											<input type="submit" id="subBtn" class="u-btn u-btn-c6 f16" value="充值">
-										</div>
-									</div>
-
-									<!-- 温馨提示 -->
-									<div class="m-prompt">
-										<h1 class="prompt-tit"><i class="zr-icon icon-prompt"></i><span>温馨提示</span></h1>
-										<ul class="prompt-list">
-			                                <li><span>1</span>目前充值不收取任何手续费；</li>
-			                                <li><span>2</span>最低充值金额应大于等于 1 元；</li>
-			                                <li><span>3</span>您的资金将从充值银行卡转入第三方支付公司的托管账户；</li>
-			                                <li><span>4</span>每日的充值限额依据各银行限额为准，请注意您的银行卡充值限制，以免造成不便；</li>
-										</ul>
-									</div>
 								</div>
 							</div>
 						</div>

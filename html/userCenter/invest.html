@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>资金流水 - 用户中心</title>
+	<title>投资记录 - 用户中心</title>
 	<meta name="keywords" content="中融,中融贷,zrbank,zr-bank,P2P理财,互联网金融,互联网理财,应收账款,银行票据" />
 	<meta name="description" content="中融贷是一家基于互联网技术为用户提供P2P金融理财服务的专业化公司。采用第三方账户资金托管，100%本息保障，让您投的放心，赚的安心！" />
 
@@ -56,12 +56,12 @@
 								<ul class="subList">
 									<li class="subItem"><a href="#">充值</a></li>
 									<li class="subItem"><a href="#">提现</a></li>
-									<li class="subItem active last"><a href="#">资金流水</a></li>
+									<li class="subItem last"><a href="#">资金流水</a></li>
 								</ul>
 							</li>
 							<li class="item"><a href="#"><i class="icon icon-sider-finance"></i>投资管理</a>
 								<ul class="subList">
-									<li class="subItem"><a href="#">投资记录</a></li>
+									<li class="subItem active"><a href="#">投资记录</a></li>
 									<li class="subItem last"><a href="#">资产统计</a></li>
 								</ul>
 							</li>
@@ -83,92 +83,47 @@
 				
 				<!-- 内容 -->
 				<div class="g-mn">
-					<div class="g-mnc bgc1">
-						<div class="m-tit">
-							<h3>资金流水记录</h3>
-						</div>
-						<div class="f-cb m-moneyFlow pt20 pb20">
-							<!-- 资金类型 -->
-							<ul class="m-moneyType pl20 f-cb">
-			                    <li class="liOne">
-			                        <span>资金类型：</span> 
-			                    </li>
-			                    <li class="btntypes">
-			                        <a class="current" data-type="1">充值</a>
-			                        <a data-type="2">提现</a>
-			                        <a data-type="3">生利宝</a>
-			                        <a data-type="4">投资</a>
-			                        <a data-type="5">回收</a>
-			                    </li>
+					<div class="g-mnc">
+						<div class="m-tab">
+							<ul class="tabmenu f-cb">
+								<li class="current"><a href="#">进行中的投资</a></li>
+								<li><a href="#">收益中的投资</a></li>
+								<li><a href="#">已经回款的投资</a></li>
 							</ul>
-
-							<!-- 资金状态 -->
-							<ul class="m-moneyStatus f-cb pl30 pt10">
-								<li>
-									<span>资金状态：</span>
-									<select name="status">
-										<option value="0">全部</option>
-										<option value="1">未支付</option>
-										<option value="2">已支付</option>
-									</select>
-								</li>
-								<li>
-									<span>查询时间：</span>
-									<select name="time">
-										<option value="0">不限</option>
-										<option value="THREE_DAYS">三天以内</option>
-										<option value="ONE_WEEK">一周以内</option>
-										<option value="ONE_MONTH">一个月以内</option>
-										<option value="THREE_MONTH">三个月以内</option>
-										<option value="ONE_YEAR">一年以内</option>
-									</select>
-								</li>
-								<li>
-									<button class="u-btn btn-cx">查询</button>
-									<button class="u-btn u-btn-c4">导出充值成功记录</button>
-								</li>
-							</ul>
-
-							<!-- 流水列表 -->
-							<div class="m-table pl30 pr30 mt20">
-								<table>
-									<tbody>
-										<tr>
-											<th width="150">交易类型</th>
-											<th>流水号</th>
-											<th>交易时间</th>
-											<th>交易金额</th>
-											<th>状态</th>
-										</tr>
-										<tr>
-											<td colspan="9" class="empty">
-												<p><i class="zr-icon icon-info"></i>暂时没有数据可以显示。</p>
-											</td>
-										</tr>
-										<tr class="">
-			                                <td><span class="text-c10">测试wx1</span></td>
-			                                <td><span>10201505220005</span></td>
-			                                <td><span>2015-05-22 10:00</span></td>
-			                                <td><span>300.00 元</span></td>
-			                                <td><a href="#" class="text-c9">未支付</a></td>
-			                            </tr>
-									</tbody>
-								</table>
-							</div>
-
-							<!-- 分页 -->
-							<div class="f-cb pb15 pt15 pr20">
-								<div class="m-paging f-fr">
-									<a href="first">首页</a>
-									<a class="prev" href="javascript:void(0)">上一页</a>
-									<a href="javascript:void(0)">1</a>
-									<span class="current">2</span>
-									<a href="javascript:void(0)">3</a>
-									<a class="next" href="javascript:void(0)">下一页</a>
-									<a href="last">尾页</a>
+							<div class="tabcon bgc1 pl30 pr30 pt20">
+								<div class="item">
+									<div class="m-table">
+										<table>
+											<tbody>
+												<tr>
+													<th width="150">名称</th>
+													<th>开始时间</th>
+													<th>项目期限</th>
+													<th>投资金额</th>
+													<th>年利率</th>
+													<th>状态</th>
+													<th>合同</th>
+												</tr>
+												<tr>
+													<td colspan="9" class="empty">
+														<p><i class="zr-icon icon-info"></i>暂时没有数据可以显示。</p>
+														<a href="#" class="u-btn u-btn-c2">立即认购</a>
+													</td>
+												</tr>
+												<tr class="">
+					                                <td><a title="测试wx1" target="_blank" href="#" class="text-c2">0.4利率25</a> </td>
+					                                <td><span>2015-06-03</span></td>
+					                                <td><span>2月</span></td>
+					                                <td><span>100.00</span></td>
+					                                <td><span>25.00%</span></td>
+					                                <td><span>审核中</span></td>
+					                                <td><a class="text-c8" href="#">查看</a> </td>
+					                            </tr>
+											</tbody>
+										</table>
+									</div>
 								</div>
 							</div>
-							<!-- /分页 -->
 						</div>
 					</div>
 				</div>

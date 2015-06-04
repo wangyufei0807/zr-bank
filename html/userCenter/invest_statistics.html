@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>资金流水 - 用户中心</title>
+	<title>资产统计 - 用户中心</title>
 	<meta name="keywords" content="中融,中融贷,zrbank,zr-bank,P2P理财,互联网金融,互联网理财,应收账款,银行票据" />
 	<meta name="description" content="中融贷是一家基于互联网技术为用户提供P2P金融理财服务的专业化公司。采用第三方账户资金托管，100%本息保障，让您投的放心，赚的安心！" />
 
@@ -56,13 +56,13 @@
 								<ul class="subList">
 									<li class="subItem"><a href="#">充值</a></li>
 									<li class="subItem"><a href="#">提现</a></li>
-									<li class="subItem active last"><a href="#">资金流水</a></li>
+									<li class="subItem last"><a href="#">资金流水</a></li>
 								</ul>
 							</li>
 							<li class="item"><a href="#"><i class="icon icon-sider-finance"></i>投资管理</a>
 								<ul class="subList">
 									<li class="subItem"><a href="#">投资记录</a></li>
-									<li class="subItem last"><a href="#">资产统计</a></li>
+									<li class="subItem active last"><a href="#">资产统计</a></li>
 								</ul>
 							</li>
 							<li class="item"><a href="#"><i class="icon icon-sider-setting"></i>我的信息</a>
@@ -83,92 +83,105 @@
 				
 				<!-- 内容 -->
 				<div class="g-mn">
-					<div class="g-mnc bgc1">
-						<div class="m-tit">
-							<h3>资金流水记录</h3>
-						</div>
-						<div class="f-cb m-moneyFlow pt20 pb20">
-							<!-- 资金类型 -->
-							<ul class="m-moneyType pl20 f-cb">
-			                    <li class="liOne">
-			                        <span>资金类型：</span> 
-			                    </li>
-			                    <li class="btntypes">
-			                        <a class="current" data-type="1">充值</a>
-			                        <a data-type="2">提现</a>
-			                        <a data-type="3">生利宝</a>
-			                        <a data-type="4">投资</a>
-			                        <a data-type="5">回收</a>
-			                    </li>
-							</ul>
-
-							<!-- 资金状态 -->
-							<ul class="m-moneyStatus f-cb pl30 pt10">
-								<li>
-									<span>资金状态：</span>
-									<select name="status">
-										<option value="0">全部</option>
-										<option value="1">未支付</option>
-										<option value="2">已支付</option>
-									</select>
-								</li>
-								<li>
-									<span>查询时间：</span>
-									<select name="time">
-										<option value="0">不限</option>
-										<option value="THREE_DAYS">三天以内</option>
-										<option value="ONE_WEEK">一周以内</option>
-										<option value="ONE_MONTH">一个月以内</option>
-										<option value="THREE_MONTH">三个月以内</option>
-										<option value="ONE_YEAR">一年以内</option>
-									</select>
-								</li>
-								<li>
-									<button class="u-btn btn-cx">查询</button>
-									<button class="u-btn u-btn-c4">导出充值成功记录</button>
-								</li>
-							</ul>
-
-							<!-- 流水列表 -->
-							<div class="m-table pl30 pr30 mt20">
-								<table>
-									<tbody>
-										<tr>
-											<th width="150">交易类型</th>
-											<th>流水号</th>
-											<th>交易时间</th>
-											<th>交易金额</th>
-											<th>状态</th>
-										</tr>
-										<tr>
-											<td colspan="9" class="empty">
-												<p><i class="zr-icon icon-info"></i>暂时没有数据可以显示。</p>
-											</td>
-										</tr>
-										<tr class="">
-			                                <td><span class="text-c10">测试wx1</span></td>
-			                                <td><span>10201505220005</span></td>
-			                                <td><span>2015-05-22 10:00</span></td>
-			                                <td><span>300.00 元</span></td>
-			                                <td><a href="#" class="text-c9">未支付</a></td>
-			                            </tr>
-									</tbody>
-								</table>
+					<div class="g-mnc">
+						<!-- 账户总资产 -->
+						<div class="m-assetstotal bgc1 mb20">
+							<div class="m-tit">
+								<h3>资金流水记录</h3>
 							</div>
-
-							<!-- 分页 -->
-							<div class="f-cb pb15 pt15 pr20">
-								<div class="m-paging f-fr">
-									<a href="first">首页</a>
-									<a class="prev" href="javascript:void(0)">上一页</a>
-									<a href="javascript:void(0)">1</a>
-									<span class="current">2</span>
-									<a href="javascript:void(0)">3</a>
-									<a class="next" href="javascript:void(0)">下一页</a>
-									<a href="last">尾页</a>
+							<div class="m-chartwrap f-cb">
+								<div class="m-money f-fl">
+									<span>账户总额(元)</span>
+									<p>49521.16</p>
+								</div>
+								<div class="m-total f-fr mt20">
+									<table cellspacing="0" cellpadding="0">
+			                            <tbody>
+			                            <tr bgcolor="#FFFFFF" class="">
+			                                <th class="first">资产明细</th>
+			                                <th class="last">金额（元）</th>
+			                            </tr>
+			                            <tr bgcolor="#FFFFFF" class="tr">
+			                                <td class="first"><i class="symbol symbol-green"></i>可用金额 </td>
+			                                <td class="last">5511.16 </td>
+			                            </tr>
+			                            <tr bgcolor="#FFFFFF" class="tr">
+			                                <td class="first"><i class="symbol symbol-orange"></i>冻结金额 </td>
+			                                <td class="last">44010.00 </td>
+			                            </tr>
+			                            <tr bgcolor="#FFFFFF" class="tr">
+			                                <td class="first"><i class="symbol symbol-orange"></i>生利宝金额 </td>
+			                                <td class="last">0.00 </td>
+			                            </tr>
+			                            </tbody>
+			                        </table>
 								</div>
 							</div>
-							<!-- /分页 -->
+						</div>
+
+						<!-- 累计投资 -->
+						<div class="m-assetsinvest bgc1 mb20">
+							<div class="m-tit">
+								<h3>累计投资</h3>
+							</div>
+							<div class="m-chartwrap f-cb">
+								<div class="m-money f-fl">
+									<span>累计投资(元)</span>
+									<p>44110.00</p>
+								</div>
+								<div class="m-total f-fr mt20">
+									<table cellspacing="0" cellpadding="0">
+			                            <tbody>
+			                            <tr bgcolor="#FFFFFF" class="">
+			                                <th class="first">资产明细</th>
+			                                <th class="last">金额（元）</th>
+			                            </tr>
+			                            <tr bgcolor="#FFFFFF" class="tr">
+			                                <td class="first"><i class="symbol symbol-dblue"></i>手动投资</td>
+			                                <td class="last">44110.00</td>
+			                            </tr>
+			                            <tr bgcolor="#FFFFFF" class="tr">
+			                                <td class="first"><i class="symbol symbol-orange"></i>自动投资</td>
+			                                <td class="last">0.00</td>
+			                            </tr>
+			                            </tbody>
+			                        </table>
+								</div>
+							</div>
+						</div>
+
+						<!-- 充值提现 -->
+						<div class="m-assetsrecharge bgc1">
+							<div class="m-tit">
+								<h3>累计投资</h3>
+							</div>
+							<div class="m-chartwrap f-cb">
+								<div class="m-money2 f-fl">
+									<span class="name">今日</span>
+									<div class="info">
+										<div class="border-bt2 pb5"><span>0.00元</span><span class="f-fr">0.00元</span></div>
+										<div class="pt5"><span>充值</span><span class="f-fr">提现</span></div>
+									</div>
+								</div>
+								<div class="m-total f-fr mt20">
+									<table cellspacing="0" cellpadding="0">
+			                            <tbody>
+			                            <tr bgcolor="#FFFFFF" class="">
+			                                <th class="first">资产明细</th>
+			                                <th class="last">金额（元）</th>
+			                            </tr>
+			                            <tr bgcolor="#FFFFFF" class="tr">
+			                                <td class="first"><i class="symbol symbol-dblue"></i>累计充值</td>
+			                                <td class="last">1000000.00</td>
+			                            </tr>
+			                            <tr bgcolor="#FFFFFF" class="tr">
+			                                <td class="first"><i class="symbol symbol-lblue"></i>累计提现</td>
+			                                <td class="last">950000.00</td>
+			                            </tr>
+			                            </tbody>
+			                        </table>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -467,3 +467,118 @@
 .m-moneyStatus .btn-cx{
     background-color: #316fb1;
 }
+
+/* tab切换 */
+.m-tab .tabmenu li{
+    float: left;
+    list-style: outside none none;
+    margin-bottom: -1px;
+    margin-right: 2px;
+    position: relative;
+    vertical-align: top;
+}
+.m-tab .tabmenu li a{
+    display: inline-block;
+    background: #f3f5fa;
+    border: medium none;
+    color: #333;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    text-align: center;
+}
+.m-tab .tabmenu li.current a{
+    background: #fff none repeat scroll 0 0;
+    color: #316fb1;
+    font-weight: 400;
+}
+
+/* 资产统计 */
+.m-money{
+    height: 150px;
+    padding: 70px 0 10px 50px;
+    text-align: left;
+    width: 280px;
+}
+.m-money span{
+    color: #333333;
+    font-family: "微软雅黑";
+    font-size: 25px;
+    line-height: normal;
+    text-align: left;
+}
+.m-money p{
+    font-family: Arial;
+    font-size: 30px;
+}
+
+/* 扩展2 */
+.m-money2 span.name{
+    float: left;
+    margin-top: 85px;
+    margin-left: 50px;
+}
+.m-money2 div.info{
+    float: left;
+    height: 150px;
+    padding: 70px 0 10px 20px;
+    text-align: left;
+    width: 240px;
+}
+
+
+/* 资产明细 */
+.m-total .first{
+    text-align: left;
+}
+.m-total .last{
+    text-align: right;
+}
+.m-total th{
+    color: #999;
+    padding: 12px 15px;
+}
+.m-total th.first{
+    padding-left: 41px;
+    color: #999;
+}
+.m-total th.last{
+    min-width: 85px;
+}
+.m-total td {
+    padding: 6px 15px;
+    vertical-align: middle;
+}
+.m-total i.symbol{
+    border-radius: 3px;
+    display: inline-block;
+    height: 16px;
+    margin-right: 10px;
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+    width: 16px;
+}
+.m-total i.symbol-green{
+    background:#19bd9b;
+}
+.m-total i.symbol-orange{
+    background:#f87849;
+}
+.m-total i.symbol-dblue{
+    background:#5a8cca;
+}
+.m-total i.symbol-lblue{
+    background:#23a0f3;
+}
+
+/* 资产统计 */
+.m-chartwrap{
+    padding: 32px 70px 0 98px;
+    position: relative;
+}
+.m-assetsrecharge .m-chartwrap{
+    padding-left: 56px;
+    padding-top: 15px;
+}
