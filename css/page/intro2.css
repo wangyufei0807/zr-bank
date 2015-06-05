@@ -6,65 +6,14 @@
 */
 
 /* 收益高 门槛低布局 */
-.g-sd3{
-	position:relative;
-	float:left;
-	width:300px;
-	margin-right:-300px;
-}
-.g-mn3{
-	float:right;
-	width:100%;
-}
-.g-mn3c{
-	margin-left:320px;
-}
+.g-sd3{position:relative;float:left;width:300px;margin-right:-300px;}
+.g-mn3{float:right;width:100%;}
+.g-mn3c{margin-left:320px;}
 
 /* banner */
 .m-banner{
 	height: 330px;
 	background:#347dd8 url(../../images/intro_banner.jpg) no-repeat center center;
-}
-
-/* banner 收益集合 */
-.m-yieldCollection{
-	color: #fff;
-    font-size: 16px;
-    position: absolute;
-    right: 0;
-    top: 71px;
-}
-.m-yieldCollection .yield-ours{
-	height: 106px;
-}
-.m-yieldCollection .f-fl{
-	text-align: right;
-    width: 240px;
-}
-.m-yieldCollection dt{
-	margin-bottom: 12px;
-}
-.m-yieldCollection .yield-ours dd{
-	color: #fff100;
-    font-size: 30px;
-    line-height: 40px;
-}
-.m-yieldCollection .yield-ours dd span{
-	font-size: 36px;
-}
-.m-yieldCollection dd em{
-	margin-left: 6px;
-}
-.m-yieldCollection .f-fr{
-	text-align: right;
-    width: 224px;
-}
-.m-yieldCollection .yield-others dd{
-	font-size: 18px;
-    line-height: 27px;
-}
-.m-yieldCollection dd span{
-	font-size: 30px;
 }
 
 /* 标题 */
@@ -154,14 +103,14 @@
 	background-position: -114px 0;
 }
 .m-list2 li p {
-  	font-size: 14px;
-  	color: #5d5d5d;
-  	width: 100%;
-  	position: absolute;
-  	left: 0;
-  	bottom: -6px;
-  	display: block;
-  	text-align: center;
+  font-size: 14px;
+  color: #5d5d5d;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  display: block;
+  text-align: center;
 }
 
 /* 问题 */
@@ -191,4 +140,49 @@
 }
 .m-question li.last{
 	border-right: 0px;
+}
+
+/* banner 收益集合 */
+.m-yieldCollection{
+  color: #fff;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 71px;
+}
+.m-yieldCollection .yield-ours {
+    height: 106px;
+}
+.m-yieldCollection .f-fl {
+    text-align: right;
+    width: 240px;
+}
+.m-yieldCollection dt {
+    margin-bottom: 12px;
+}
+
+.m-yieldCollection .yield-ours dd {
+    color: #fff100;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.m-yieldCollection .yield-ours dd span {
+    font-size: 36px;
+}
+
+.m-yieldCollection dd em {
+    margin-left: 6px;
+}
+
+.m-yieldCollection .f-fr {
+    text-align: right;
+    width: 224px;
+}
+.m-yieldCollection .yield-others dd {
+    font-size: 18px;
+    line-height: 27px;
+}
+.m-yieldCollection dd span{
+  font-size: 30px;
 }

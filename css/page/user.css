@@ -730,3 +730,15 @@
     width: 16px;
     top: 20px;
 }
+
+/* 邀请提示 */
+.m-inviteNotice{
+    background-color: #f3f5fa;
+    padding: 20px;
+}
+.m-inviteNotice p{
+    padding-bottom: 20px
+}
+.m-inviteNotice li{
+    line-height: 24px;
+}
