@@ -527,7 +527,6 @@
     width: 240px;
 }
 
-
 /* 资产明细 */
 .m-total .first{
     text-align: left;
@@ -581,4 +580,153 @@
 .m-assetsrecharge .m-chartwrap{
     padding-left: 56px;
     padding-top: 15px;
+}
+
+/* 用户头像 */
+.m-userhead .img{
+    float: left;
+}
+.m-userhead .name{
+    float: left;
+    margin-left: 10px;
+}
+
+/* 用户验证列表 */
+.m-userinfolist li{
+    overflow: hidden;
+}
+.m-userinfolist .infolist-icon{
+    float: left;
+    margin: 20px 10px 0 0px;
+}
+.m-userinfolist .infolist-txt1{
+    float: left;
+    margin: 20px 10px;
+    width: 120px;
+}
+.m-userinfolist .infolist-txt2{
+    float: left;
+    margin: 20px 10px;
+    width: 350px;
+}
+.m-userinfolist .infolist-txt3{
+    float: left;
+    margin: 20px 10px;
+}
+.m-userinfolist .infolist-txt3 img{
+    margin: -3px 5px;
+}
+.m-userinfolist .infolist-txt3 span{
+    margin: 0 5px;
+}
+.m-userinfolist .infolist-txt3 a{
+    color: #0eafe6;
+    margin: 0 5px;
+}
+
+/* 消息列表 */
+.m-message li{
+    padding: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+.m-message .title{
+    margin-bottom: 15px;
+}
+.m-message .delete{
+    cursor: pointer;
+    color: #ff6c00;
+}
+.m-message .delete .icon-delete{
+    background: url(../../images/delete.png) no-repeat;
+    display: inline-block;
+    height: 10px;
+    margin-left: 5px;
+    width: 10px;
+}
+.m-message .msg-wrapper{
+    color: #999
+}
+
+/* 邀请好友 */
+.m-invite .item{
+    margin-bottom: 40px;
+    padding-left: 60px;
+    position: relative;
+}
+.invite-icon{
+    display: inline-block;
+    background: url(../../images/invite_icn.png) no-repeat;
+    left: 0;
+    position: absolute;
+    top: -12px;
+}
+.m-invite .item .invite-way-1{
+    background-position: 0 0;
+    height: 50px;
+    width: 50px;
+}
+.m-invite .item .invite-way-2{
+    background-position: -60px 0;
+    height: 50px;
+    width: 50px;
+}
+.m-invite .item .invite-wxquan {
+    display: inline-block;
+    background: url(../../images/invite_icn.png) no-repeat;
+    background-position: -60px -60px;
+    height: 32px;
+    width: 33px;
+    vertical-align: top;
+}
+.m-invite .item h4{
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    margin-bottom: 15px;
+}
+.m-invite .item .item-code span{
+    color: #506985;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+}
+.m-invite .inviteLinkCopy {
+    border: 1px solid #d7dade;
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 5px;
+    padding: 0 3px;
+    width: 325px;
+}
+.m-invite .copylink{
+    background: #ff6c00 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    height: 34px;
+    width: 76px;
+}
+.m-invite .qrcode-desc{
+    color: #5d5d5d;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.m-invite .qrcode-rule p{
+    line-height: 28px;
+}
+
+/* 声明 */
+.m-statement{
+    padding: 20px 0 0 25px;
+    position: relative;
+}
+.m-statement .invite-statement{
+    background-position: -120px 0;
+    height: 21px;
+    width: 16px;
+    top: 20px;
 }
