@@ -13,11 +13,46 @@
 	background-color: #333;
 	color: #999;
 }
+.m-topbar .icon-asset{
+	background-position: -1119px 0px;
+	width: 15px;
+	height: 15px;
+	vertical-align:middle;
+	margin-right: 5px;
+}
+.m-topbar .icon-phone{
+	background-position: -807px -26px;
+	width: 14px;
+	height: 16px;
+	vertical-align: -2px;
+	margin-right: 5px;
+}
+.m-topbar .icon-kefu{
+	background-position: -911px -26px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
 .m-topbar a{
 	color: #999;
 }
 .m-topbar a:hover{
 	color: #ff6c00;
+}
+.m-topbar a.phone:hover .icon-phone{
+	background-position: -521px -26px;
+	width: 14px;
+	height: 16px;
+	vertical-align: -2px;
+	margin-right: 5px;
+}
+.m-topbar a.kefu:hover .icon-kefu{
+	background-position: -937px -26px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
 }
 
 /* head */
@@ -74,7 +109,7 @@
 /* 网站底部公用 */
 /* foottop */
 .m-foottop{
-	height: 105px;
+	
 }
 
 /* footlink */
@@ -87,9 +122,22 @@
 	margin-right: 40px;
 }
 
+/* 友情链接 */
+.m-friendlink{
+
+}
+.m-friendlink li{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.m-friendlink li.first{
+	margin-right: 26px;
+}
+
 /* footcontact */
 .m-contact .time{
-	font-size: 24px;
+	font-size: 22px;
 	color: #5d5d5d;
 }
 .m-contact .time em{
@@ -161,6 +209,44 @@
 .m-verification a.icon-icp:hover{
 	background-position: 0px 0px;
 }
+
+/* app下载 */
+.m-download .icon-iphone{
+	background-position: -1431px 0px;
+	width: 16px;
+	height: 19px;
+}
+.m-download .icon-android{
+	background-position: -391px -26px;
+	width: 17px;
+	height: 19px;
+}
+
+/* 官方微信微博 */
+.m-communicate{
+	margin-left: 30px;
+	padding-top: 10px;
+}
+.m-communicate a{
+	margin-right: 5px;
+}
+.m-communicate .icon-weibo{
+	background-position: -469px -26px;
+	width: 20px;
+	height: 17px;
+}
+.m-communicate .icon-weixin{
+	background-position: -495px 0px;
+	width: 20px;
+	height: 17px;
+}
+.m-communicate .icon-email{
+	background-position: -1197px -26px;
+	width: 16px;
+	height: 11px;
+}
+
+
 /* /网站底部公用 */
 
 /* -------------------------公用组件模块------------------------- */

@@ -119,6 +119,20 @@
 .m-tit h2{
 	font-size: 18px;
 }
+.m-tit .icon-xinshou{
+	background-position: -1249px -26px;
+	width: 24px;
+	height: 24px;
+	vertical-align: -3;
+	margin-right: 5px;
+}
+.m-tit  .icon-licai{
+	background-position: -1379px -26px;
+	width: 24px;
+	height: 23px;
+	vertical-align: -3px;
+	margin-right: 5px;
+}
 
 /* 列表1 (公告、媒体报道、为何选择中融贷)*/
 .m-list li{
@@ -171,8 +185,36 @@
 .m-table table td .marking{
 	color: #1BA98C;
 	font-size:12px; 
+	margin-top: 7px;
 }
 .m-table table td .marking .icon-security{
 	width: 16px;
 	height: 17px;
+}
+.m-table .icon-security{
+	background-position: -677px 0px;
+	width: 14px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.m-table .u-btn{
+	width: 70px
+}
+.m-table .line{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	height: 1px;
+	border-bottom: 1px solid #f0f0f0;
+	display: block;
+	width: 100%;
+}
+.m-table .icon-special{
+	background-position: 0 0;
+	width: 79px;
+	height: 61px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
