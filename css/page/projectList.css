@@ -13,6 +13,33 @@
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.m-tit h1{
+	display: inline-block;
+	padding-right: 20px;
+	border-right: 1px solid #ebecee;
+	color: #375473;
+}
+.m-tit .icon-projectlist{
+	background-position: -143px 0px;
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.m-tit .more{
+	border-left: 1px solid #ebecee;
+	padding-left: 20px;
+}
+.m-tit .more:hover{
+	color: #545454;
+}
+.m-tit .icon-counter{
+	background-position: -989px -26px;
+	width: 16px;
+	height: 16px;
+	vertical-align: -3px;
+	margin-right: 5px;
+}
 
 /* 筛选 */
 .m-filter .item span{
@@ -59,4 +86,32 @@
 	padding-bottom: 10px;
 	border-bottom: 1px solid #EBECEE;
 }
-
+.m-table2 table tr td.first{
+	padding-left: 30px;
+	text-align: left;
+	
+}
+.m-table2 .icon-baozhang{
+	background-position: -677px 0px;
+	width: 14px;
+	height: 16px;
+	vertical-align: -3px;
+}
+.m-table2 .icon-jiang{
+	background-position: -1223px 0px;
+	width: 24px;
+	height: 24px;
+	vertical-align: -5px;
+}
+.m-table2 .icon-tie{
+	background-position: -1223px -26px;
+	width: 24px;
+	height: 24px;
+	vertical-align: -5px;
+}
+.m-table2 .icon-kong{
+	background-position: -1249px 0px;
+	width: 24px;
+	height: 24px;
+	vertical-align: -5px;
+}
