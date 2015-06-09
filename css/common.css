@@ -245,7 +245,48 @@
 	width: 16px;
 	height: 11px;
 }
-
+.m-communicate .wx-box{
+	display: inline-block;
+	position: relative;
+	margin-right: 5px;
+}
+.m-communicate .wx-box .wx-pop{
+	position: absolute;
+	bottom: 33px;
+	left: -40px;
+	padding: 10px;
+	background: #FFFFFF;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+	border: 1px solid #d7dade;
+}
+.m-communicate .wx-box .wx-pop .arrow{
+	right: 52px;
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+}
+.m-communicate .wx-box .wx-pop em{
+	border-style: solid;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	width: 0;
+	border-width: 6px 6px 0;
+	border-top-color: #b1b1b1;
+}
+.m-communicate .wx-box .wx-pop span{
+	border-style: solid;
+	height: 0;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 0;
+	border-width: 6px 6px 0;
+	border-top-color: #fff;
+}
 
 /* /网站底部公用 */
 

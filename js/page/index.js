@@ -3,15 +3,16 @@
  */
 define(function(require, exports, module){
 
-	//引入JQUERY文件
+	//引入依赖文件
 	require('jquery');
+	require('kinmaxshow');
 
 	//dom页面结构加载完执行
 	$(document).ready(function(){
-		alert(1);
-		console.log(111);
+
+		//焦点图
+		$("#kinMaxShow").kinMaxShow();
+
 	})
 
-
-	
 })

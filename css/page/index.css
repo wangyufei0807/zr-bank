@@ -10,12 +10,6 @@
 .g-mn{float:left;width:100%;}
 .g-mnc{margin-right:320px;}
 
-/* 焦点图 */
-.m-silder{
-	height: 330px;
-	background: url(../../images/silder/silder01.jpg) center;
-}
-
 /* 蒙版 */
 .m-mask{
 	position: absolute;
@@ -27,6 +21,7 @@
   	-moz-opacity: 0.4;
 	opacity: 0.4;
   	background-color: #000;
+	z-index: 90;
 }
 
 /* 加入我们 */
