@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>投资项目 - 中融贷 - 安全透明互联网金融平台</title>
+	<title>中融贷 - 安全透明互联网金融平台</title>
 	<meta name="keywords" content="中融,中融贷,zrbank,zr-bank,P2P理财,互联网金融,互联网理财,应收账款,银行票据" />
 	<meta name="description" content="中融贷是一家基于互联网技术为用户提供P2P金融理财服务的专业化公司。采用第三方账户资金托管，100%本息保障，让您投的放心，赚的安心！" />
 
 	<link rel="stylesheet" type="text/css" href="../css/base.css" />
 	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+	<script src="../js/sea.js"></script>
+	<script src="../js/config.js"></script>
+	<script>seajs.use('../js/page/common')</script>
 
 	<link rel="stylesheet" type="text/css" href="../css/page/projectList.css" />
 </head>
@@ -18,8 +21,8 @@
 			<!-- topbar -->
 			<div class="m-topbar">
 				<div class="g-in f-cb">
-					<div class="f-fl"><a target="_blank" href="#"><i class="icon-sp1 sp1-puhui-min"></i>中融腾资产</a> 旗下在线投资理财金融服务平台</div>
-					<div class="f-fr"><a href="#" class="mr10 f-csd">400-699-2677(9:00-17:30)</a><a href="#" class="mr10"><i></i>在线客服</a><a href="#" class="mr10">注册</a><span>|</span><a href="#" class="ml10">登录</a></div>
+					<div class="f-fl"><a target="_blank" href="#"><i class="zr-icon icon-asset"></i>中融腾资产</a> 旗下在线投资理财金融服务平台</div>
+					<div class="f-fr"><a href="#" class="mr15 f-csd phone"><i class="zr-icon icon-phone"></i>400-699-2677(9:00-17:30)</a><a href="#" class="mr15 kefu"><i class="zr-icon icon-kefu"></i>在线客服</a><a href="#" class="mr10">注册</a><span>|</span><a href="#" class="ml10">登录</a></div>
 				</div>
 			</div>
 			<!-- /topbar -->
@@ -29,13 +32,18 @@
 				<div class="g-in f-cb">
 					<div class="m-logo f-fl"><a href="#"></a></div>
 					<div class="m-nav f-fr">
-						<ul class="f-cb">
-							<li><a href="#">首页</a></li>
-							<li><a href="#" class="dropdown">我要投资<i class="arrow"></i></a></li>
-							<li><a href="#">安全保障</a></li>
-							<li><a href="#">媒体报道</a></li>
-							<li><a href="#">新手指引</a></li>
-							<li><a href="#">关于我们</a></li>
+						<ul class="f-cb pt15 pb15">
+							<li class="item"><a href="#">首页</a></li>
+							<li id="subnav" class="item subitem"><a href="#" class="dropdown">我要投资<i class="arrow"></i></a>
+								<ul class="sublist" style="display: none">
+									<li><a href="#">直投项目</a></li>
+									<li><a href="#">新手测试</a></li>
+								</ul>
+							</li>
+							<li class="item"><a href="#">安全保障</a></li>
+							<li class="item"><a href="#">媒体报道</a></li>
+							<li class="item"><a href="#">新手指引</a></li>
+							<li class="item"><a href="#">关于我们</a></li>
 						</ul>
 					</div>
 				</div>
@@ -185,6 +193,7 @@
 			<div class="g-bd bgc1">
 				<div class="g-in">
 					<div class="m-foottop">
+						<!-- 关于我们 -->
 						<div class="m-footlink">
 							<ul class="f-cb">
 								<li><a href="#">关于我们</a></li>
@@ -195,9 +204,38 @@
 								<li><a href="#">联系我们</a></li>
 							</ul>
 						</div>
-						<div class="m-contact">
-							<div class="f-fl"><span class="time">400-699-2677<em>(9:00-17:30)</em></span></div>
-							<div class="f-fr">a</div>
+
+						<!-- 友情链接 -->
+						<div class="m-friendlink">
+							<ul class="f-cb">
+								<li class="first">友情连接：</li>
+								<li><a href="/">中融腾资产</a></li>
+								<li><a href="http://www.wangdaizhijia.com/">网贷之家</a></li>
+								<li><a href="http://www.p2peye.com/">网贷天眼</a></li>
+							</ul>
+						</div>
+
+						<!-- 营业时间-联系方式 -->
+						<div class="m-contact pb20 f-cb">
+							<div class="f-fl">
+								<span class="time f-fl">400-699-2677<em>(9:00-17:30)</em></span>
+								<div class="m-communicate f-fl">
+									<a href=""><i class="zr-icon icon-weibo"></i></a>
+									<div id="wx-box" class="wx-box">
+										<i class="zr-icon icon-weixin"></i>
+										<div id="wx-pop" class="wx-pop" style="display: none">
+											<div class="arrow">
+												<em></em>
+												<span></span>
+											</div>
+
+											<img src="../images/weixin.png" width="74" height="74">
+										</div>
+									</div>
+									<a href=""><i class="zr-icon icon-email"></i></a>
+								</div>
+							</div>
+							<div class="f-fr"><div class="m-download"><a href="#"><i class="zr-icon icon-iphone"></i></a><a href="#" class="ml15"><i class="zr-icon icon-android"></i></a></div></div>
 						</div>
 					</div>
 				</div>
@@ -211,7 +249,7 @@
 							<a href="#" class="vficon icon-360safe"></a>
 							<a href="#" class="vficon icon-icp"></a>
 						</div>
-						<div class="f-fr m-copyright">©Copyright(c)2015 zr-bank.cn.All Rights Reserved <a rel="nofollow" href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备13018016</a></div>
+						<div class="f-fr m-copyright">©Copyright(c)2015 zr-bank.cn.All Rights Reserved<a rel="nofollow" href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备13018016</a></div>
 					</div>
 				</div>
 			</div>

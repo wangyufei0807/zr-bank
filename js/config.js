@@ -11,6 +11,7 @@ jpath.mousewheel = typeof(debug) != 'undefined' && debug ? 'lib/mousewheel/3.1.1
 jpath.validate = typeof(debug) != 'undefined' && debug ? 'lib/validation/1.11.1/jquery.validate.js' : 'lib/validation/1.11.1/jquery.validate.min.js';
 jpath.kinmaxshow = typeof(debug) != 'undefined' && debug ? 'lib/kinmaxshow/1.1/jquery.kinMaxShow-1.1.src.js' : 'lib/kinmaxshow/1.1/jquery.kinMaxShow-1.1.src.js';
 jpath.dialog = typeof(debug) != 'undefined' && debug ? 'lib/artDialog/6.0.4/dialog.js' : 'lib/artDialog/6.0.4/dialog-min.js';
+jpath.tabs = typeof(debug) != 'ubdefined' && debug ? 'lib/tabs/1.0/jquery.tabs.js' : 'lib/tabs/1.0/jquery.tabs.js';
 
 seajs.config({
 
@@ -19,7 +20,8 @@ seajs.config({
 		'jquery':jpath.jquery,
 		'validate':jpath.validate,
 		'kinmaxshow':jpath.kinmaxshow,
-		'dialog':jpath.dialog
+		'dialog':jpath.dialog,
+		'tabs':jpath.tabs
 	}
 
 });

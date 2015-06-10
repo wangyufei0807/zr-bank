@@ -137,5 +137,23 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	line-height: 30px;
+}
 
+/* 表格样式 */
+.m-table{
+	width: 100%;
+}
+.m-table th{
+	background: #f7f8fa;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.m-table td{
+	border-bottom: 1px solid #ebecee;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
 }

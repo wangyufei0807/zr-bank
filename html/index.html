@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/common.css" />
 	<script src="../js/sea.js"></script>
 	<script src="../js/config.js"></script>
+	<script>seajs.use('../js/page/common')</script>
 
 	<link rel="stylesheet" type="text/css" href="../css/page/index.css" />
 </head>
@@ -31,13 +32,18 @@
 				<div class="g-in f-cb">
 					<div class="m-logo f-fl"><a href="#"></a></div>
 					<div class="m-nav f-fr">
-						<ul class="f-cb">
-							<li><a href="#">首页</a></li>
-							<li><a href="#" class="dropdown">我要投资<i class="arrow"></i></a></li>
-							<li><a href="#">安全保障</a></li>
-							<li><a href="#">媒体报道</a></li>
-							<li><a href="#">新手指引</a></li>
-							<li><a href="#">关于我们</a></li>
+						<ul class="f-cb pt15 pb15">
+							<li class="item"><a href="#">首页</a></li>
+							<li id="subnav" class="item subitem"><a href="#" class="dropdown">我要投资<i class="arrow"></i></a>
+								<ul class="sublist" style="display: none">
+									<li><a href="#">直投项目</a></li>
+									<li><a href="#">新手测试</a></li>
+								</ul>
+							</li>
+							<li class="item"><a href="#">安全保障</a></li>
+							<li class="item"><a href="#">媒体报道</a></li>
+							<li class="item"><a href="#">新手指引</a></li>
+							<li class="item"><a href="#">关于我们</a></li>
 						</ul>
 					</div>
 				</div>
@@ -387,9 +393,9 @@
 								<span class="time f-fl">400-699-2677<em>(9:00-17:30)</em></span>
 								<div class="m-communicate f-fl">
 									<a href=""><i class="zr-icon icon-weibo"></i></a>
-									<div class="wx-box">
+									<div id="wx-box" class="wx-box">
 										<i class="zr-icon icon-weixin"></i>
-										<div class="wx-pop">
+										<div id="wx-pop" class="wx-pop" style="display: none">
 											<div class="arrow">
 												<em></em>
 												<span></span>

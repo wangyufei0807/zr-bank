@@ -75,24 +75,30 @@
 }
 
 /* nav */
-.m-nav li{
+.m-nav li.item{
 	float: left;
 	position: relative;
 }
-.m-nav li a{
+.m-nav li.item a{
 	display: block;
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 16px;
 	color: #333;
-	height: 80px;
-	line-height: 80px;
+	height: 50px;
+	line-height: 50px;
 }
-.m-nav li a:hover{
+.m-nav li a:hover,.m-nav li a.cur{
 	color: #ff6c00;
 }
 .m-nav li a.dropdown{
 	padding-right: 30px;
+	border: 1px solid #FFFFFF;
+	border-bottom: none;
+}
+.m-nav li a.dropdown:hover,.m-nav li a.cur{
+	border: 1px solid #e8e8e8;
+	border-bottom: none;
 }
 .m-nav .arrow{
 	width: 0;
@@ -101,9 +107,45 @@
 	border-right: 4px solid transparent;
 	border-top: 4px solid #555;
 	position: absolute;
-  	top: 40px;
+  	top: 25px;
   	right: 17px;
   	z-index: 1;
+}
+.m-nav li a.dropdown:hover .arrow,.m-nav li a.cur .arrow{
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #ff6c00;
+	position: absolute;
+	top: 25px;
+	right: 17px;
+	z-index: 1;
+}
+/* 子菜单 */
+.m-nav li.subitem{
+	position: relative;
+}
+.m-nav li .sublist{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 100;
+	border: 1px solid #e8e8e8;
+	border-top: none;
+	background: #FFFFFF;
+}
+.m-nav li .sublist li{
+	height: 36px;
+	line-height: 36px;
+}
+.m-nav li .sublist li a{
+	height: 36px;
+	line-height: 36px;
+	padding-right: 30px;
+}
+.m-nav li .sublist li a:hover{
+	color: #333;
 }
 
 /* 网站底部公用 */
