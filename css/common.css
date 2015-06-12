@@ -562,9 +562,11 @@
 	background: #fcfcfc;
     color: #595959;
     vertical-align: middle;
+	margin-right: 17px;
 }
 .m-form2 .u-iptCode{
 	width: 106px;
+	margin-right: 2px;
 }
 .m-form2 .formItem{
 	padding: 0 5px 20px 170px;

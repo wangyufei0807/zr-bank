@@ -138,11 +138,12 @@
 					<div class="m-findPwdForm">
 						<p class="info">已将短信验证码发送到您 <span class="text-c1">158****6679</span> 的手机当中，请注意查收！</p>
 						<div class="m-form2">
-							<form>
+							<form id="findPwdForm2">
 								<div class="formItem">
 									<label class="label"><span class="required">*</span>短信验证码：</label>
-									<input type="text" placeholder="验证码" name="code" value="" autocomplete="off" class="u-ipt u-iptCode">&nbsp;&nbsp;还没收到短信？
+									<input type="text" placeholder="验证码" name="phonecode" value="" autocomplete="off" class="u-ipt u-iptCode">&nbsp;&nbsp;还没收到短信？
 									<button class="m-button" id="getMobileCode">再次发送</button>
+									<span class="ipt-err"></span>
 								</div>
 								<div class="formItem" style="margin-bottom:20px">
 									<input type="submit" id="subBtn" class="u-btn u-btn-c2 f16" value="下一步">
@@ -223,5 +224,8 @@
 		</div>
 		<!-- /底部 -->
 	</div>
+	<script>
+		seajs.use('../../js/page/findpwd');
+	</script>
 </body>
 </html>

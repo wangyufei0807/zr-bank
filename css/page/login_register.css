@@ -31,7 +31,7 @@ label.valid{
 	padding: 1px 0 1px 25px;
 	background: url("../../images/validate/icon-valid-new.png") no-repeat left center;
 }
-.m-form .u-ipt.error{
+.m-form2 .u-ipt.error{
 	border: 1px solid #ffbe8f;
 	box-shadow: 0 0 3px #ffbe8f;
 }

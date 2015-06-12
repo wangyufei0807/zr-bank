@@ -12,6 +12,30 @@
 	line-height: 60px;
 }
 
+/* 表单验证提示 */
+label.error{
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 1px 0 1px 25px;
+    color: #ff6c00;
+    background: url("../../images/validate/icon-warn.png") no-repeat left center;
+}
+label.valid{
+    color: #aaa;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 1px 0 1px 25px;
+    background: url("../../images/validate/icon-valid-new.png") no-repeat left center;
+}
+.m-form2 .u-ipt.error{
+    border: 1px solid #ffbe8f;
+    box-shadow: 0 0 3px #ffbe8f;
+}
+
 /* box */
 .m-box{
     padding-bottom: 60px;
@@ -77,7 +101,7 @@
 	font-size: 21px;
     font-style: normal;
     font-weight: 800;
-    left: -1px;
+    left: -2px;
     line-height: 1.5;
     padding: 0 18px;
     position: absolute;

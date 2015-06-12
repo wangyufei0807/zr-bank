@@ -137,16 +137,18 @@
 					</div>
 					<div class="m-findPwdForm">
 						<div class="m-form2">
-							<form>
+							<form id="findPwdForm1">
 								<div class="formItem">
 									<label class="label"><span class="required">*</span>填写账号信息：</label>
-									<input type="text" class="u-ipt" placeholder="请填写昵称、邮箱或手机号码" autocomplete="off">
+									<input type="text" class="u-ipt" name="account" placeholder="请填写昵称、邮箱或手机号码" autocomplete="off">
+									<span class="ipt-err"></span>
 								</div>
 								<div class="formItem">
 									<label class="label"><span class="required">*</span>验证码：</label>
-									<input type="text" placeholder="验证码" name="code" value="" autocomplete="off" class="u-ipt u-iptCode">
+									<input type="text" placeholder="验证码" name="verifycode" value="" autocomplete="off" class="u-ipt u-iptCode">
 									<a class="refreshCode"><img align="absMiddle" width="68" height="30" title="点击刷新图片校验码" src="../../images/varify.png" class="imgcode"></a>
-									<a onselectstart="return false" class="refreshCode">看不清，换一张</a>
+									<a onselectstart="return false" class="refreshCode mr15">看不清，换一张</a>
+									<span class="ipt-err"></span>
 								</div>
 								<div class="formItem" style="margin-bottom:20px">
 									<input type="submit" id="subBtn" class="u-btn u-btn-c2 f16" value="下一步">
@@ -227,5 +229,9 @@
 		</div>
 		<!-- /底部 -->
 	</div>
+
+	<script>
+		seajs.use('../../js/page/findpwd');
+	</script>
 </body>
 </html>

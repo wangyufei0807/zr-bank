@@ -137,14 +137,16 @@
 					</div>
 					<div class="m-findPwdForm">
 						<div class="m-form2">
-							<form>
+							<form id="findPwdForm3">
 								<div class="formItem">
 									<label class="label"><span class="required">*</span>新密码：</label>
-									<input type="text" class="u-ipt" placeholder="请输入新密码" autocomplete="off">
+									<input type="text" class="u-ipt" id="newpwd" name="newpwd" placeholder="请输入新密码" autocomplete="off">
+									<span class="ipt-err"></span>
 								</div>
 								<div class="formItem">
 									<label class="label"><span class="required">*</span>确认新密码：</label>
-									<input type="text" class="u-ipt" placeholder="请输入确认密码" autocomplete="off">
+									<input type="text" class="u-ipt" name="confimnewpwd" placeholder="请输入确认密码" autocomplete="off">
+									<span class="ipt-err"></span>
 								</div>
 								<div class="formItem" style="margin-bottom:20px">
 									<input type="submit" id="subBtn" class="u-btn u-btn-c2 f16" value="下一步">
@@ -225,5 +227,8 @@
 		</div>
 		<!-- /底部 -->
 	</div>
+	<script>
+		seajs.use('../../js/page/findpwd');
+	</script>
 </body>
 </html>
