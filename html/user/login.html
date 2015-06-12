@@ -102,16 +102,18 @@
 				<div class="m-link f-cb"><span>没有账号？<a href="#">立即注册</a></span></div>
 				<div class="m-box">
 					<div class="m-form">
-						<form>
+						<form id="loginForm">
 							<div class="formItem f-pr">
 								<i class="zr-icon icon-account"></i>
 								<span class="icon-line"></span>
-								<input type="text" class="u-ipt" placeholder="请输入昵称，将用作登录" autocomplete="off">
+								<input type="text" class="u-ipt" name="account" placeholder="用户名/邮箱/手机号" autocomplete="off">
+								<span class="ipt-err"></span>
 							</div>
 							<div class="formItem f-pr">
 								<i class="zr-icon icon-password"></i>
 								<span class="icon-line"></span>
-								<input type="text" class="u-ipt" placeholder="请输入密码" autocomplete="off">
+								<input type="text" class="u-ipt" name="password" placeholder="请输入密码" autocomplete="off">
+								<span class="ipt-err"></span>
 							</div>
 							<div class="formItem" style="margin-bottom:20px">
 								<label>
@@ -201,5 +203,9 @@
 		</div>
 		<!-- /底部 -->
 	</div>
+
+	<script>
+		seajs.use('../../js/page/login');
+	</script>
 </body>
 </html>
