@@ -42,6 +42,16 @@
 	padding-right: 20px;
 	color: #333;
 }
+.m-tit .jiang{
+	color: #dd047e;
+}
+.m-tit .jiang .icon-jiang{
+	background-position: -1223px 0px;
+	width: 24px;
+	height: 24px;
+	vertical-align: -6px;
+	margin-right: 5px;
+}
 
 /* 项目属性 */
 .m-attr1 li{
@@ -156,4 +166,46 @@
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
+}
+
+/* 材料补充效果 */
+.m-slider .slide-content{
+	height: 200px;
+	width: 842px;
+}
+.m-slider .JQ-slide-nav{
+	float: left;
+}
+.m-slider .JQ-slide-nav a{
+	display: block;
+	height: 92px;
+	margin-top: 54px;
+	text-decoration: none;
+	width: 34px;
+}
+.m-slider .JQ-slide-nav a.prev{
+	background: url(../../images/left.png) no-repeat;
+}
+.m-slider .JQ-slide-nav a.next{
+	background: url(../../images/right.png) no-repeat;
+}
+.m-slider .wrap{
+	float: left;
+	height: 160px;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 774px;
+}
+.m-slider .JQ-slide-content{
+	width: 10000px;
+}
+.m-slider ul li{
+	border: 1px solid #b0b0b0;
+	cursor: pointer;
+	float: left;
+	height: 158px;
+	margin-left: 22px;
+	margin-right: 22px;
+	width: 108px;
 }

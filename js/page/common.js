@@ -18,6 +18,16 @@ define(function(require, exports, module){
             $(this).children(".sublist").hide();
         })
 
+        //用户登录后下拉菜单
+        $("#j-usernavdown").mouseover(function () {
+            $(this).children(".user-link").addClass("cur");
+            $(this).children(".user-menu").show();
+        })
+        $("#j-usernavdown").mouseout(function () {
+            $(this).children(".user-link").removeClass("cur");
+            $(this).children(".user-menu").hide();
+        })
+
         //网站底部微信弹出
         $("#wx-box").mouseenter(function () {
             $("#wx-pop").show();

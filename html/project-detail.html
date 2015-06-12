@@ -13,6 +13,7 @@
 	<script>seajs.use('../js/page/common')</script>
 
 	<link rel="stylesheet" type="text/css" href="../css/page/projectDetail.css" />
+	<link rel="stylesheet" type="text/css" href="../js/lib/fancybox/1.3.4/jquery.fancybox-1.3.4.css">
 </head>
 <body>
 	<div class="g-doc">
@@ -22,7 +23,41 @@
 			<div class="m-topbar">
 				<div class="g-in f-cb">
 					<div class="f-fl"><a target="_blank" href="#"><i class="zr-icon icon-asset"></i>中融腾资产</a> 旗下在线投资理财金融服务平台</div>
-					<div class="f-fr"><a href="#" class="mr15 f-csd phone"><i class="zr-icon icon-phone"></i>400-699-2677(9:00-17:30)</a><a href="#" class="mr15 kefu"><i class="zr-icon icon-kefu"></i>在线客服</a><a href="#" class="mr10">注册</a><span>|</span><a href="#" class="ml10">登录</a></div>
+					<div class="f-fr">
+						<a href="#" class="mr15 f-csd phone"><i class="zr-icon icon-phone"></i>400-699-2677(9:00-17:30)</a>
+						<a href="#" class="mr15 kefu"><i class="zr-icon icon-kefu"></i>在线客服</a>
+						<span class="m-nologin" style="display: none">
+							<a href="#" class="mr10">注册</a><span>|</span><a href="#" class="ml10">登录</a>
+						</span>
+						<span class="m-hadlogin">
+							<a class="m-msgtip mr10" href="#"><i class="zr-icon icon-msg"></i>消息<span class="count">10</span></a>
+							<span id="j-usernavdown" class="m-usernavdown">
+								<a class="user-link" href="#">
+									<i class="zr-icon icon-user"></i>
+									<span class="name">shanyusenlin</span>
+									<i class="zr-icon icon-arrow"></i>
+								</a>
+								<div class="user-menu">
+									<div class="arrow">
+										<em></em>
+										<span></span>
+									</div>
+									<div class="content">
+										<div class="top">
+											<a href="#" class="f-fl"><img id="user-photo" src="../images/avatar.jpg"> </a>
+											<a href="#" class="loginout f-fl">退出</a>
+										</div>
+										<ul>
+											<li><a href="#" class="ucenter"><i class="zr-icon icon-ucenter"></i> 个人中心</a> </li>
+											<li><a href="#" class="recharge"><i class="zr-icon icon-recharge"></i> 账户充值</a> </li>
+											<li><a href="#" class="touzi"><i class="zr-icon icon-touzi"></i> 投资记录</a> </li>
+											<li><a href="#" class="assets"><i class="zr-icon icon-assets"></i> 资产统计</a> </li>
+										</ul>
+									</div>
+								</div>
+							</span>
+						</span>
+					</div>
 				</div>
 			</div>
 			<!-- /topbar -->
@@ -71,6 +106,7 @@
 							<div class="m-tit">
 								<span class="f16">ZT2015051801</span>
 								<span class="ml15 text-c3">项目ID：ZR201505150001</span>
+								<a class="f-fr jiang"><i class="zr-icon icon-jiang"></i>投标奖励</a>
 							</div>
 							<div class="m-detailAttr p20">
 								<ul class="m-attr1 f-cb mt20 mb20">
@@ -157,7 +193,25 @@
 								<div class="item">
 									<div class="m-tit"><span class="f18">补充材料</span></div>
 									<div class="m-con">
-										dddddd
+										<div class="m-slider">
+											<div id="j-sliderbox" class="slider-content f-cb">
+												<div class="JQ-slide-nav"><a href="javascript:void(0);" class="prev"></a></div>
+												<div class="wrap">
+													<ul class="JQ-slide-content f-cb">
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/d33d156a3b0007cc867bdec15d4b9ba0.jpg"><img src="../images/upload/deal/d33d156a3b0007cc867bdec15d4b9ba0.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/0e1e88e194cf0f239eb0741dcf05c87e.jpg"><img src="../images/upload/deal/0e1e88e194cf0f239eb0741dcf05c87e.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/f5021e628b593c4ea4942418bb66dc2a.jpg"><img src="../images/upload/deal/f5021e628b593c4ea4942418bb66dc2a.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/7526169d4052b3aac45db301c00be86c.jpg"><img src="../images/upload/deal/7526169d4052b3aac45db301c00be86c.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/da19b72b8e2bffcfc1db9dab495683ea.jpg"><img src="../images/upload/deal/da19b72b8e2bffcfc1db9dab495683ea.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/8fc312eb7a6e505a0f6210ed818e4fe5.jpg"><img src="../images/upload/deal/8fc312eb7a6e505a0f6210ed818e4fe5.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/d5b309eacba0251d6afd79eab048268b.jpg"><img src="../images/upload/deal/d5b309eacba0251d6afd79eab048268b.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/40a743d4db0902b0083c6b3db7348a16.jpg"><img src="../images/upload/deal/40a743d4db0902b0083c6b3db7348a16.jpg" width="108" height="158"></a></li>
+														<li><a rel="galler1" class="fancybox" data-fancybox-group="gallery1" href="../images/upload/deal/943788c302321314a201916fba3201c2.jpg"><img src="../images/upload/deal/943788c302321314a201916fba3201c2.jpg" width="108" height="158"></a></li>
+													</ul>
+												</div>
+												<div class="JQ-slide-nav"><a href="javascript:void(0);" class="next"></a></div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -171,6 +225,11 @@
 										<th width="220"><span>投资时间</span></th>
 										<th width="140"><span>投资方式</span></th>
 										<th><span>状态</span></th>
+									</tr>
+									<tr>
+										<td colspan="6">
+											<div class="m-list-empty">暂无数据</div>
+										</td>
 									</tr>
 									<tr>
 										<td><span>1</span></td>
@@ -210,6 +269,11 @@
 										<th width="140"><span>应还利息</span></th>
 										<th width="120"><span>本息余额</span></th>
 										<th><span>状态</span></th>
+									</tr>
+									<tr>
+										<td colspan="6">
+											<div class="m-list-empty">暂无数据</div>
+										</td>
 									</tr>
 									<tr>
 										<td><span>1</span></td>
