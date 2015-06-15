@@ -1230,9 +1230,15 @@ $.format = $.validator.format;
 	});
 }(jQuery));
 
-//验证规则
+//手机验证规则
 jQuery.validator.addMethod("isMobile", function(value, element) {
 	var length = value.length;
 	var mobile = /^(((13[0-9]{1})|(14[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
 	return this.optional(element) || (length == 11 && mobile.test(value));
 }, "手机号码格式不正确，请重新输入");
+
+//金额验证规则
+jQuery.validator.addMethod("isAmount", function(value, element) {
+	var amount = /^[0-9]*(\.[0-9]{1,2})?$/;
+	return this.optional(element) || amount.test(value);
+}, "请输入正确的金额");

@@ -136,9 +136,9 @@
 							</div>
 							<div class="f-fl w600 pb20">
 								<!-- 银行选项 -->
-								<ul class="m-bankOption f-cb">
-									<li class="current" data-name="CCB">
-										<span class="zr-icon u-radio u-radio-checked">
+								<ul class="m-bankOption f-cb" data-type="1">
+									<li class="" data-name="CCB">
+										<span class="zr-icon u-radio">
 											<input type="radio" class="bankId" value="CCB" name="bankId" />
 										</span>
 										<label><img src="../../images/bank/CCB.png" height="36" width="136" title="中国建设银行" alt="中国建设银行"></label>
@@ -167,9 +167,9 @@
 										</span>
 										<label><img src="../../images/bank/ABC.png" height="36" width="136" title="中国农业银行" alt="中国农业银行"></label>
 									</li>
-									<li data-name="BOCM">
+									<li data-name="BOCOM">
 										<span class="zr-icon u-radio">
-											<input type="radio" class="bankId" value="BOCM" name="bankId" />
+											<input type="radio" class="bankId" value="BOCOM" name="bankId" />
 										</span>
 										<label><img src="../../images/bank/BOCM.png" height="36" width="136" title="交通银行" alt="交通银行"></label>
 									</li>
@@ -205,19 +205,373 @@
 									</li>
 								</ul>
 
+								<!-- 银行限额 -->
+								<div class="m-bankNorm">
+									<div id="chongzhi-CCB" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">建设银行客服热线：95533</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF" class="">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF" class="">
+													<td>1,000元 </td>
+													<td>1,000元 </td>
+													<td>动态口令卡（刮刮卡）客户、短信动态口令客户、账号支付（无需开通网银） </td>
+													<td>除文件证书客户不开放支付限额外，其他未提及的支付限额均以此限额为准。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF" class="">
+													<td>3,000元 </td>
+													<td>3,000元 </td>
+													<td>文件证书+刮刮卡客户 </td>
+													<td style="vertical-align: middle" rowspan="2">账号支付是建行客户小额线上支付方式，无需开通建行网上银行，使用账号支付前，需在建行预留您正在使用的手机号。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF" class="">
+													<td>100万 </td>
+													<td>100万 </td>
+													<td>USB Key客户 </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-ICBC" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">工商银行客服热线：95588</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>300元 </td>
+													<td>300元 </td>
+													<td>柜面注册存量静态支付密码客户 </td>
+													<td style="vertical-align: middle" rowspan="4">如您是柜面注册存量静态支付密码客户，当您所做的网上支付交易达到总支付限额后，您将不能继续进行网上支付交易。如您仍需进行网上支付交易，请您到中国工商银行营业网点申领电子银行口令卡或个人客户证书（U盾），当您成为电子银行口令卡客户或证书客户后，您将不再受到支付限额的限制。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>2,000元 </td>
+													<td>5,000元 </td>
+													<td>电子银行口令卡动态支付密码客户--通过手机短信认证 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>500元 </td>
+													<td>1,000元 </td>
+													<td>电子银行口令卡动态支付密码客户--无手机短信认证 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>无限额 </td>
+													<td>无限额 </td>
+													<td>证书客户（U盾客户） </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-CMB" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">招商银行客服热线：95555</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>500元 </td>
+													<td>500元 </td>
+													<td>开通大众版网上银行 </td>
+													<td style="vertical-align: middle" rowspan="2">进行借记卡大额支付，可选择招商银行专业版支付及手机支付渠道进行交易；<a target="_blank" href="http://www.cmbchina.com/main/noticeinfo.aspx?guid=dd55a9aa-b033-4413-8954-2ea3083b62e2">详情参见</a> </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>无限额 </td>
+													<td>无限额 </td>
+													<td>开通专业版网上银行 </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-BOC" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">中国银行客服热线：95566</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>1万 </td>
+													<td>10万 </td>
+													<td>动态口令卡 </td>
+													<td>如需使用中国银行网上支付服务，请先到我行营业网点申请开通新版中国银行网上银行,并申请安全认证工具“中银e令”并妥善保管。 </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-ABC" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">农业银行客服热线：95599</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>1,000元 </td>
+													<td>3,000元 </td>
+													<td>动态口令卡 </td>
+													<td style="vertical-align: middle" rowspan="3">中国农业银行于2007年11月1日推出动态口令卡服务。动态口令卡是一种新型安全认证产品。动态口令卡与IE证书绑定后，使用IE证书对外支付将不受上述限额限制，请至农业银行网点申领。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>50万 </td>
+													<td>100万 </td>
+													<td>一代K版（USBN证书用户） </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>100万 </td>
+													<td>500万 </td>
+													<td>二代K版（USBN证书用户） </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-BOCOM" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">交通银行客服热线：95559</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>5万 </td>
+													<td>5万 </td>
+													<td>短信密码客户 </td>
+													<td style="vertical-align: middle" rowspan="2">
+														1、您需要到交通银行营业网点柜面申请成为个人网上银行手机注册用户或者证书认证用户，并开通网上支付功能。<br>
+														2、用户在开通网上支付功能后，需到交通银行个人网上银行激活该功能方可使用。<br>3、客户可根据自身需求登录个人网银进行日累计限额调整。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>100万 </td>
+													<td>100万 </td>
+													<td>证书客户 </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-BOS" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">上海银行客服热线：021-962888</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>5,000元 </td>
+													<td>5,000元 </td>
+													<td>专业版文件证书 </td>
+													<td style="vertical-align: middle" rowspan="2">可至上海银行营业网点申请开通个人网上银行专业版，获得文件证书或usbkey证书，成为专业版客户。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>5万 </td>
+													<td>5万 </td>
+													<td>专业版USBKEY证书 </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-CIB" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">兴业银行客服热线：95561</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>1,000元或5,000元 </td>
+													<td>1,000元或5,000元 </td>
+													<td>个人网银自主开通 </td>
+													<td style="vertical-align: middle" rowspan="2">1、证书客户或短信保护客户直接在个人网银“网上购物”板块“开通/关闭网上购物支付”里日限额只能选1000或5000元，总额度最大100万元；<br>
+														2、客户在柜面或者使用证书可自行设置日限额和总额度（最大100万元）；<br>3、e卡默认开通网上支付功能，日限额5000元，总额度由客户申请e卡时自行设置（最大100万元），但是可以采取以上两种方式修改。
+													</td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>无限额 </td>
+													<td>无限额 </td>
+													<td>柜面或<br>证书客户个人网银开通 </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-CMBC" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">民生银行客服热线：95568</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>300元 </td>
+													<td>300元 </td>
+													<td>无证书客户<br>（个人网上银行大众版） </td>
+													<td style="vertical-align: middle" rowspan="3">大众版支付限额由原日累计300元改为累计支付300元。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>5,000 </td>
+													<td>5,000 </td>
+													<td>贵宾版（浏览器证书） </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>20万 </td>
+													<td>50万 </td>
+													<td>贵宾版（U宝） </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-CEB" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">光大银行客服热线：95595</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>5,000元 </td>
+													<td>5,000元 </td>
+													<td>手机动态密码（令牌） </td>
+													<td style="vertical-align: middle" rowspan="2">
+														1、办理数字证书支付签约需开通个人网上银行专业版，并登录网上银行专业版进行签约。<br>
+														2、办理银行卡直接支付签约可通过我行网点柜台办理，也可登录个人网上银行专业版进行签约。
+													</td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>20万 </td>
+													<td>50万 </td>
+													<td>网银专业版<br>阳光网盾 </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div id="chongzhi-SPDB" class="bankInfo" style="display: none;">
+										<div class="f-cb info-top">
+											<div class="f-fl">请关注您的充值金额是否超过支付限额</div>
+											<div class="f-fr">浦发银行客服热线：95528</div>
+										</div>
+										<div class="tableList">
+											<table>
+												<tbody>
+												<tr bgcolor="#FFFFFF">
+													<th width="80">单笔限额</th>
+													<th width="80">每日限额</th>
+													<th>需要满足条件</th>
+													<th width="220">备注</th>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>5万 </td>
+													<td>5万 </td>
+													<td>动态密码版客户<br>（签约用户） </td>
+													<td style="vertical-align: middle" rowspan="2">如您是动态密码客户或数字证书客户，您需要开通网上支付功能，即开通个人网上银行。 </td>
+												</tr>
+												<tr bgcolor="#FFFFFF">
+													<td>无限额 </td>
+													<td>无限额 </td>
+													<td>证书客户<br>（浏览器版和usbkey版） </td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+
 								<!-- 充值表单 -->
 								<div class="m-form2 m-form2-1">
-									<div class="formItem">
-										<label class="label">可投金额：</label>
-										<p class="formText"><strong>0.00元</strong></p>
-									</div>
-									<div class="formItem">
-										<label class="label">充值金额：</label>
-										<input type="text" placeholder="请输入您要充值的金额" name="" value="" autocomplete="off" class="u-ipt" style="margin-right: 10px">元
-									</div>
-									<div class="formItem" style="margin-bottom:20px">
-										<input type="submit" id="subBtn" class="u-btn u-btn-c6 f16" value="充值">
-									</div>
+									<form id="pRechargeForm">
+										<div class="formItem">
+											<label class="label">可投金额：</label>
+											<p class="formText"><strong>0.00元</strong></p>
+										</div>
+										<div class="formItem">
+											<label class="label">充值金额：</label>
+											<input type="text" placeholder="请输入您要充值的金额" name="money" value="" autocomplete="off" class="u-ipt" style="margin-right: 10px">元
+											<span class="ipt-err"></span>
+										</div>
+										<div class="formItem" style="margin-bottom:20px">
+											<input type="submit" id="subBtn" class="u-btn u-btn-c6 f16" value="充值">
+										</div>
+									</form>
 								</div>
 
 								<!-- 温馨提示 -->

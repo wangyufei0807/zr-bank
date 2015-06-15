@@ -492,6 +492,22 @@
 	line-height: 200px;
 	text-align: center;
 }
+.m-list-empty2{
+	font-size: 16px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.m-list-empty2 p{
+	font-size: 16px;
+}
+.m-list-empty .icon-empty, .m-list-empty2 .icon-empty{
+	width: 33px;
+	height: 32px;
+	background-position: -324px 0px;
+	vertical-align: -11px;
+	margin-right: 10px;
+}
 
 /* 分页 */
 .m-paging a{

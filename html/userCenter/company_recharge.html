@@ -136,7 +136,7 @@
 							</div>
 							<div class="f-fl w600 pb20">
 								<!-- 银行选项 -->
-								<ul class="m-bankOption f-cb">
+								<ul class="m-bankOption f-cb" data-type="2">
 									<li class="current" data-name="CCB">
 										<span class="zr-icon u-radio u-radio-checked">
 											<input type="radio" class="bankId" value="CCB" name="bankId" />
@@ -189,17 +189,20 @@
 
 								<!-- 充值表单 -->
 								<div class="m-form2 m-form2-1">
-									<div class="formItem">
-										<label class="label">可投金额：</label>
-										<p class="formText"><strong>0.00元</strong></p>
-									</div>
-									<div class="formItem">
-										<label class="label">充值金额：</label>
-										<input type="text" placeholder="请输入您要充值的金额" name="" value="" autocomplete="off" class="u-ipt"> 元
-									</div>
-									<div class="formItem" style="margin-bottom:20px">
-										<input type="submit" id="subBtn" class="u-btn u-btn-c6 f16" value="充值">
-									</div>
+									<form id="cRechargeForm">
+										<div class="formItem">
+											<label class="label">可投金额：</label>
+											<p class="formText"><strong>0.00元</strong></p>
+										</div>
+										<div class="formItem">
+											<label class="label">充值金额：</label>
+											<input type="text" placeholder="请输入您要充值的金额" name="money" value="" autocomplete="off" class="u-ipt" style="margin-right: 10px">元
+											<span class="ipt-err"></span>
+										</div>
+										<div class="formItem" style="margin-bottom:20px">
+											<input type="submit" id="subBtn" class="u-btn u-btn-c6 f16" value="充值">
+										</div>
+									</form>
 								</div>
 
 								<!-- 温馨提示 -->
@@ -288,5 +291,8 @@
 		</div>
 		<!-- /底部 -->
 	</div>
+	<script>
+		seajs.use('../../js/page/user');
+	</script>
 </body>
 </html>

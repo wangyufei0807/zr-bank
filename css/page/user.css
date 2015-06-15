@@ -16,6 +16,28 @@
 	display: inline-block;
 }
 
+/* 表单验证提示 */
+label.error{
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 1px 0 1px 5px;
+    color: #ff6c00;
+}
+label.valid{
+    color: #aaa;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 1px 0 1px 5px;
+}
+.m-form2 .u-ipt.error{
+    border: 1px solid #ffbe8f;
+    box-shadow: 0 0 3px #ffbe8f;
+}
+
 /* 用户中心标题 */
 .m-tit{
 	background: #fff;
@@ -369,9 +391,9 @@
 
 /* 温馨提示 */
 .m-prompt .prompt-tit .icon-prompt{
-    background-position: -36px -5px;
-    height: 17px;
-    width: 10px;
+    background-position: -1327px -0px;
+    height: 16px;
+    width: 8px;
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -743,4 +765,39 @@
 }
 .m-inviteNotice li{
     line-height: 24px;
+}
+
+/* 银行限额 */
+.m-bankNorm .bankInfo{
+    display: none;
+    width: 552px;
+}
+.m-bankNorm .bankInfo .info-top{
+    background: #506985;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 13px;
+}
+.m-bankNorm .bankInfo table{
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.m-bankNorm .bankInfo table tr th{
+    background: #f2f3f5 none repeat scroll 0 0;
+    border-right: 1px solid #dee0e4;
+    border-top: 1px solid #dee0e4;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.m-bankNorm .bankInfo table tr td{
+    background: #f2f3f5 none repeat scroll 0 0;
+    border-right: 1px solid #dee0e4;
+    border-top: 1px solid #dee0e4;
+    height: 30px;
+    line-height: 22px;
+    text-align: center;
 }
