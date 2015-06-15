@@ -11,8 +11,9 @@ define(function(require, exports, module){
 	$(document).ready(function(){
 
 		//用户中心左侧展开收缩效果
-		$(".m-side > .item").click(function () {
-			$(this).find(".subList").toggle();
+		var sideItem = $(".m-side").find(".item").children("a");
+		$(sideItem).click(function () {
+			$(this).siblings("ul").slideToggle("slow");
 		})
 	})
 
