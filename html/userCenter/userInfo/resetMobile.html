@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/common.css" />
+    <script src="../../../js/sea.js"></script>
+    <script src="../../../js/config.js"></script>
+    <script>seajs.use('../../../js/page/common')</script>
+
+    <link rel="stylesheet" type="text/css" href="../../../css/page/user.css" />
+</head>
+<body>
+<!-- 修改绑定手机号码 -->
+<div id="phoneEditDialog" class="m-dialog">
+    <div class="m-form2 mt20 f-pr">
+        <form id="phoneEditForm1">
+            <div class="formItem">
+                <label class="label">原手机号码：</label>
+                <p class="pt10 f18">15810466679</p>
+            </div>
+            <div class="formItem">
+                <label class="label"><span class="required">*</span>手机验证码：</label>
+                <input type="text" placeholder="验证码" name="phonecode" value="" autocomplete="off" class="u-ipt u-iptCode">
+                <button type="button" class="u-btn u-btn-c3" id="getMobileCode">获取验证码</button>
+            </div>
+            <div class="formItem">
+                <label class="label"><span class="required">*</span>登录密码：</label>
+                <input type="text" class="u-ipt" name="password" autocomplete="off">
+            </div>
+            <div class="m-dc-bottom">
+                <div class="bts">
+                    <input type="button" id="subbt-step1" value="下一步" class="u-btn u-btn-c6">
+                </div>
+            </div>
+        </form>
+        <form id="phoneEditForm2" style="display: none;">
+            <div class="formItem">
+                <label class="label"><span class="required">*</span>新手机号码：</label>
+                <input type="text" class="u-ipt" name="newphone" autocomplete="off">
+            </div>
+            <div class="formItem">
+                <label class="label"><span class="required">*</span>手机验证码：</label>
+                <input type="text" placeholder="验证码" name="phonecode" value="" autocomplete="off" class="u-ipt u-iptCode">
+                <button type="button" class="u-btn u-btn-c3" id="getMobileCode2">获取验证码</button>
+            </div>
+            <div class="m-dc-bottom">
+                <div class="bts">
+                    <input type="button" id="subbt-step2" value="下一步" class="u-btn u-btn-c6">
+                </div>
+            </div>
+        </form>
+        <form id="phoneEditForm3" style="display: none;">
+            <div class="m-step-success">
+                <div class="f-cb success">
+                    <i class="zr-icon icon-success f-fl"></i>
+                    <div class="success-info f-fl">
+                        <h3>恭喜您，手机号码修改成功！</h3>
+                        <p class="new-mobile">手机号码：<span id="newMobileNum">15810466679</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-dc-bottom">
+                <div class="bts">
+                    <input type="submit" id="subbt-step3" value="完成" class="u-btn u-btn-c6">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    seajs.use('../../../js/page/user');
+</script>
+</body>
+</html>

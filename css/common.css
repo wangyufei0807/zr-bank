@@ -639,6 +639,25 @@
 	width: auto;
 }
 
+/* 弹框底部 */
+.m-dc-bottom{
+	background: #f2f3f5;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.m-dc-bottom .bts{
+	text-align: center;
+}
+.m-dc-bottom .bts .u-btn{
+	margin: 0 10px;
+	padding: 0 20px;
+	width: auto;
+}
+
 /* 圆形进度条 */
 .m-rate{
 	display: block;

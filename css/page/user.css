@@ -23,7 +23,7 @@ label.error{
     height: 20px;
     line-height: 20px;
     padding: 1px 0 1px 5px;
-    color: #ff6c00;
+    color: red;
 }
 label.valid{
     color: #aaa;
@@ -34,8 +34,13 @@ label.valid{
     padding: 1px 0 1px 5px;
 }
 .m-form2 .u-ipt.error{
-    border: 1px solid #ffbe8f;
-    box-shadow: 0 0 3px #ffbe8f;
+    border: 1px solid red;
+}
+
+/* 弹出框验证提示 */
+.m-dialog label.error{
+    display: block;
+    padding: 1px 0 1px 0px;
 }
 
 /* 用户中心标题 */
@@ -382,11 +387,6 @@ label.valid{
     margin: 0 3px;
     position: relative;
     top: 2px;
-}
-
-/* 充值 */
-.m-recharge .u-radio{
-    position: 
 }
 
 /* 温馨提示 */
@@ -800,4 +800,58 @@ label.valid{
     height: 30px;
     line-height: 22px;
     text-align: center;
+}
+
+/* form表单样式重写 */
+.m-form2 .formItem{
+    height: 70px;
+    padding-bottom: 0;
+}
+
+/* 绑定手机号码验证第一步 */
+#phoneEditForm1{
+    height: 300px;
+}
+/* 绑定手机号码验证第二步 */
+#phoneEditForm2{
+    height: 260px;
+    padding-top: 40px;
+}
+/* 绑定手机号码验证第三步 */
+#phoneEditForm3{
+    height: 300px;
+}
+/* 绑定手机号码成功 */
+.m-step-success .success{
+    padding-left: 135px;
+    padding-top: 50px;
+}
+.m-step-success .success i{
+    margin-right: 10px;
+}
+.m-step-success .success i.icon-success{
+    background-position: -254px 0;
+    width: 33px;
+    height: 32px;
+}
+.m-step-success .success-info{
+    text-align: left;
+}
+.m-step-success .success h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.m-step-success .success p{
+    color: #999;
+    line-height: 25px;
+}
+
+/* 邮箱绑定 */
+#emailEditForm{
+    padding-top: 70px;
+}
+
+/* 修改密码 */
+#pwdEditForm{
+    padding-top: 40px;
 }

@@ -13,6 +13,7 @@
 	<script>seajs.use('../../js/page/common')</script>
 
 	<link rel="stylesheet" type="text/css" href="../../css/page/user.css" />
+	<link rel="stylesheet" type="text/css" href="../../js/lib/artDialog/6.0.4/ui-dialog.css" />
 </head>
 <body>
 	<div class="g-doc">
@@ -156,7 +157,7 @@
 				                        <div class="infolist-txt3">
 				                            <img src="../../images/authentication/ok.png">
 				                            <span>已验证</span>
-				                            <a href="#" class="thickbox">修改</a>
+				                            <a href="javascript:void(0)" id="j-phoneEdit" class="thickbox">修改</a>
 				                        </div>
 				                    </li>
 				                    <li>
@@ -177,7 +178,7 @@
 				                        <div class="infolist-txt2">未绑定</div>
 				                        <div class="infolist-txt3  ">
 				                            <img src="../../images/authentication/error.png">
-				                            <a href="#" class="thickbox">去绑定</a>
+				                            <a href="javascript:void(0)" id="j-emailEdit" class="thickbox">去绑定</a>
 				                        </div>
 				                    </li>
 				                    <li>
@@ -189,7 +190,7 @@
 				                        <div class="infolist-txt3">
 				                            <img src="../../images/authentication/ok.png">
 				                            <span>已设置</span>
-				                            <a href="#" class="thickbox">修改</a>
+				                            <a href="javascript:void(0)" id="j-passwordEdit" class="thickbox">修改</a>
 				                        </div>
 				                    </li>
 								</ul>
@@ -291,5 +292,8 @@
 		</div>
 		<!-- /底部 -->
 	</div>
+	<script>
+		seajs.use('../../js/page/user');
+	</script>
 </body>
 </html>

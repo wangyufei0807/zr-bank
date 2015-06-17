@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/common.css" />
+    <script src="../../../js/sea.js"></script>
+    <script src="../../../js/config.js"></script>
+    <script>seajs.use('../../../js/page/common')</script>
+
+    <link rel="stylesheet" type="text/css" href="../../../css/page/user.css" />
+</head>
+<body>
+<!-- 绑定邮箱 -->
+<div id="emailDialog" class="m-dialog">
+    <div class="m-form2">
+        <form id="emailEditForm">
+            <div class="formItem">
+                <label class="label"><span class="required">*</span>邮箱：</label>
+                <input type="text" class="u-ipt u-ipt-disabled" name="email" autocomplete="off">
+                <div class="ipt-err"></div>
+            </div>
+            <div class="m-dc-bottom">
+                <div class="bts">
+                    <input type="submit" value="确定" class="u-btn u-btn-c6">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    seajs.use('../../../js/page/user');
+</script>
+</body>
+</html>
