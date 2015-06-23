@@ -855,3 +855,97 @@ label.valid{
 #pwdEditForm{
     padding-top: 40px;
 }
+
+/* 奖励 */
+.m-reward{
+
+}
+.m-reward td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.m-reward td.amount{
+    width: 115px;
+}
+.m-reward td.demo{
+    color: #999;
+    width: 145px;
+}
+.m-reward .redbag-un{
+    height: 51px;
+    position: relative;
+    width: 130px;
+    background: url("../../images/reward.png") no-repeat scroll 0 0;
+    color: #fa4422;
+}
+
+/* 项目合同 */
+.m-hetong .title{
+    margin-top:10px;
+    background:#f7f7f6;
+    border: 1px solid #D6D6D6;
+    border-bottom: none;
+    height:58px;
+    font-size: 16px;
+    color:#474747;
+    padding-left:10px;
+    line-height: 58px;
+}
+.m-hetong .assets{
+    background:#FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    height:58px;
+    font-size: 14px;
+    color:#474747;
+    padding-left:20px;
+    line-height: 58px;
+}
+.m-hetong .assets div{
+    width:250px;
+    float:left
+}
+.m-hetong .content{
+    border: 1px solid #D6D6D6;
+    margin-top: 10px;
+    background:#FFFFFF;
+    margin-top:20px
+}
+.m-hetong .listAll{
+    width:100%
+}
+.m-hetong .listAll th{
+    background:#F7F7F6;
+    color:#474747;
+    height: 40px;
+    font-size:14px;
+    text-align: center;
+}
+.m-hetong .listAll td{
+    height:70px;
+    font-size:12px;
+    color:#474747;
+    text-align: center;
+    line-height: 20px;
+    border-bottom: 1px dashed #f5f5f5;
+}
+.m-hetong .listAll .last{
+    border-bottom: 0;
+}
+.m-hetong .listAll td a{
+    color:#0eafe6
+}
+.m-hetong .listAll td a:hover{
+    color:#0eafe6;
+}
+.m-hetong .listAll td .more{
+    font-size: 14px;
+    color:#0eafe6
+}
+.m-hetong .listAll td .more:hover{
+    color:#0eafe6
+}
+.m-hetong .listAll td .mark{
+    margin-left: 8px;
+}

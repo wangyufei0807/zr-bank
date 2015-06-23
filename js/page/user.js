@@ -240,6 +240,17 @@ define(function(require, exports, module){
 				height:350
 			});
 			d.showModal();
+		});
+
+		//消息 全选反选
+		$("#allsel").click(function () {
+			$("[name='id[]']").each(function(){//反选
+				if($(this).prop("checked")){
+					$(this).prop("checked",false);
+				}else{
+					$(this).prop("checked",true);
+				}
+			})
 		})
 	})
 })
