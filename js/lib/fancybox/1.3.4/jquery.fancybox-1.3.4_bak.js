@@ -1040,7 +1040,7 @@
 		$('body').append(
 			tmp	= $('<div id="fancybox-tmp"></div>'),
 			loading	= $('<div id="fancybox-loading"><div></div></div>'),
-			overlay	= $('<div id="fancybox-overlay"><div id="fancybox-mod-left" onclick="mod_left(event)"></div><div id="fancybox-mod-right" onclick="mod_right(event)"></div><div id="fancybox-mod-close" onclick="mod_close(event)"></div></div>'),
+			overlay	= $('<div id="fancybox-overlay"></div>'),
 			wrap = $('<div id="fancybox-wrap"></div>')
 		);
 
@@ -1116,7 +1116,7 @@
 		hideOnContentClick : false,
 
 		overlayShow : true,
-		overlayOpacity : 1,
+		overlayOpacity : 0.7,
 		overlayColor : '#777',
 
 		titleShow : true,
@@ -1136,8 +1136,8 @@
 		easingIn : 'swing',
 		easingOut : 'swing',
 
-		showCloseButton	 : false,
-		showNavArrows : false,
+		showCloseButton	 : true,
+		showNavArrows : true,
 		enableEscapeButton : true,
 		enableKeyboardNav : true,
 
@@ -1154,20 +1154,3 @@
 	});
 
 })(jQuery);
-
-function mod_left(e){
-	stopPP(e);
-	$("#fancybox-left")[0].click();
-}
-function mod_right(e){
-	stopPP(e);
-	$("#fancybox-right")[0].click();
-}
-function mod_close(e){
-	stopPP(e);
-	$("#fancybox-close")[0].click();
-}
-function stopPP(e){
-	e=e||window.event;
-	e.stopPropagation?e.stopPropagation():(e.cancelBubble=true);
-}

@@ -72,6 +72,27 @@
 	background: #16ba98 url(../../images/job_tit_bg.png);
 }
 
+/* 扩展标题3 */
+.m-tit-3{
+	padding-top: 20px;
+	height: 107px;
+}
+.m-tit-3 .detail-title{
+	color: #fff;
+	font-size: 18px;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+}
+.m-tit-3 .detail-attr{
+	line-height: 25px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.m-tit-3 .detail-attr a{
+	color: #FFFFFF;
+}
+
 /* 关于我们 */
 .m-about .about p{
 	margin-bottom: 20px;

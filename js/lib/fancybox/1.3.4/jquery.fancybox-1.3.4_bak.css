@@ -357,39 +357,3 @@
 .fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_sw.png', sizingMethod='scale'); }
 .fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_w.png', sizingMethod='scale'); }
 .fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_nw.png', sizingMethod='scale'); }
-
-#fancybox-mod-close {
-	background: rgba(0, 0, 0, 0) url("fancybox/turn_close.png") repeat scroll 0 0;
-	height: 43px;
-	position: fixed;
-	right: 0;
-	top: 0;
-	width: 45px;
-	z-index: 2147483647;
-}
-#fancybox-mod-close:hover {
-	background: rgba(0, 0, 0, 0) url("fancybox/turn_close_h.png") repeat scroll 0 0;
-}
-#fancybox-mod-left, #fancybox-mod-right {
-	height: 87px;
-	margin-top: -44px;
-	position: fixed;
-	top: 50%;
-	width: 87px;
-	z-index: 2147483647;
-	cursor: pointer;
-}
-#fancybox-mod-left {
-	background: rgba(0, 0, 0, 0) url("fancybox/turn_left.png") repeat scroll 0 0;
-	left: 10px;
-}
-#fancybox-mod-left:hover {
-	background: rgba(0, 0, 0, 0) url("fancybox/turn_left_h.png") repeat scroll 0 0;
-}
-#fancybox-mod-right {
-	background: rgba(0, 0, 0, 0) url("fancybox/turn_right.png") repeat scroll 0 0;
-	right: 10px;
-}
-#fancybox-mod-right:hover {
-	background: rgba(0, 0, 0, 0) url("fancybox/turn_right_h.png") repeat scroll 0 0;
-}
